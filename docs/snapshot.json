@@ -1,0 +1,8573 @@
+{
+  "dataset": "Synthetic utility operations; no customer or employer data",
+  "seed": 42,
+  "audit": {
+    "source_rows": 413,
+    "accepted_rows": 360,
+    "quarantined_rows": 53,
+    "reasons": {
+      "duplicate event id": 30,
+      "missing or negative measure": 12,
+      "unmatched asset": 8,
+      "invalid date": 3
+    },
+    "contract": "First occurrence wins; invalid values and unmatched keys are quarantined, not imputed."
+  },
+  "raw_cost_usd": 168941.0,
+  "clean_cost_usd": 81538.0,
+  "cost_distortion_usd": 87403.0,
+  "summary": [
+    {
+      "region": "Central",
+      "events": 127,
+      "cost_usd": 28612,
+      "avg_duration_min": 56.881889763779526,
+      "over_sla": 54
+    },
+    {
+      "region": "East",
+      "events": 109,
+      "cost_usd": 25315,
+      "avg_duration_min": 54.41284403669725,
+      "over_sla": 48
+    },
+    {
+      "region": "West",
+      "events": 124,
+      "cost_usd": 27611,
+      "avg_duration_min": 56.58870967741935,
+      "over_sla": 54
+    }
+  ],
+  "daily": [
+    {
+      "day": "2026-09-01",
+      "region": "Central",
+      "events": 4,
+      "cost_usd": 586
+    },
+    {
+      "day": "2026-09-01",
+      "region": "East",
+      "events": 4,
+      "cost_usd": 739
+    },
+    {
+      "day": "2026-09-01",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 686
+    },
+    {
+      "day": "2026-09-02",
+      "region": "Central",
+      "events": 6,
+      "cost_usd": 1903
+    },
+    {
+      "day": "2026-09-02",
+      "region": "East",
+      "events": 2,
+      "cost_usd": 436
+    },
+    {
+      "day": "2026-09-02",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 1166
+    },
+    {
+      "day": "2026-09-03",
+      "region": "Central",
+      "events": 5,
+      "cost_usd": 809
+    },
+    {
+      "day": "2026-09-03",
+      "region": "East",
+      "events": 5,
+      "cost_usd": 1337
+    },
+    {
+      "day": "2026-09-03",
+      "region": "West",
+      "events": 2,
+      "cost_usd": 652
+    },
+    {
+      "day": "2026-09-04",
+      "region": "Central",
+      "events": 6,
+      "cost_usd": 974
+    },
+    {
+      "day": "2026-09-04",
+      "region": "East",
+      "events": 2,
+      "cost_usd": 480
+    },
+    {
+      "day": "2026-09-04",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 278
+    },
+    {
+      "day": "2026-09-05",
+      "region": "Central",
+      "events": 4,
+      "cost_usd": 979
+    },
+    {
+      "day": "2026-09-05",
+      "region": "East",
+      "events": 5,
+      "cost_usd": 858
+    },
+    {
+      "day": "2026-09-05",
+      "region": "West",
+      "events": 3,
+      "cost_usd": 598
+    },
+    {
+      "day": "2026-09-06",
+      "region": "Central",
+      "events": 4,
+      "cost_usd": 858
+    },
+    {
+      "day": "2026-09-06",
+      "region": "East",
+      "events": 4,
+      "cost_usd": 812
+    },
+    {
+      "day": "2026-09-06",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 714
+    },
+    {
+      "day": "2026-09-07",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 437
+    },
+    {
+      "day": "2026-09-07",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 478
+    },
+    {
+      "day": "2026-09-07",
+      "region": "West",
+      "events": 6,
+      "cost_usd": 1118
+    },
+    {
+      "day": "2026-09-08",
+      "region": "Central",
+      "events": 5,
+      "cost_usd": 1054
+    },
+    {
+      "day": "2026-09-08",
+      "region": "East",
+      "events": 4,
+      "cost_usd": 932
+    },
+    {
+      "day": "2026-09-08",
+      "region": "West",
+      "events": 3,
+      "cost_usd": 472
+    },
+    {
+      "day": "2026-09-09",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 622
+    },
+    {
+      "day": "2026-09-09",
+      "region": "East",
+      "events": 5,
+      "cost_usd": 1072
+    },
+    {
+      "day": "2026-09-09",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 1132
+    },
+    {
+      "day": "2026-09-10",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 720
+    },
+    {
+      "day": "2026-09-10",
+      "region": "East",
+      "events": 2,
+      "cost_usd": 416
+    },
+    {
+      "day": "2026-09-10",
+      "region": "West",
+      "events": 7,
+      "cost_usd": 1904
+    },
+    {
+      "day": "2026-09-11",
+      "region": "Central",
+      "events": 4,
+      "cost_usd": 1065
+    },
+    {
+      "day": "2026-09-11",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 562
+    },
+    {
+      "day": "2026-09-11",
+      "region": "West",
+      "events": 5,
+      "cost_usd": 1294
+    },
+    {
+      "day": "2026-09-12",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 1074
+    },
+    {
+      "day": "2026-09-12",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 772
+    },
+    {
+      "day": "2026-09-12",
+      "region": "West",
+      "events": 6,
+      "cost_usd": 1202
+    },
+    {
+      "day": "2026-09-13",
+      "region": "Central",
+      "events": 4,
+      "cost_usd": 857
+    },
+    {
+      "day": "2026-09-13",
+      "region": "East",
+      "events": 4,
+      "cost_usd": 1010
+    },
+    {
+      "day": "2026-09-13",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 796
+    },
+    {
+      "day": "2026-09-14",
+      "region": "Central",
+      "events": 5,
+      "cost_usd": 1396
+    },
+    {
+      "day": "2026-09-14",
+      "region": "East",
+      "events": 4,
+      "cost_usd": 1040
+    },
+    {
+      "day": "2026-09-14",
+      "region": "West",
+      "events": 3,
+      "cost_usd": 587
+    },
+    {
+      "day": "2026-09-15",
+      "region": "Central",
+      "events": 4,
+      "cost_usd": 1107
+    },
+    {
+      "day": "2026-09-15",
+      "region": "East",
+      "events": 2,
+      "cost_usd": 426
+    },
+    {
+      "day": "2026-09-15",
+      "region": "West",
+      "events": 6,
+      "cost_usd": 1499
+    },
+    {
+      "day": "2026-09-16",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 429
+    },
+    {
+      "day": "2026-09-16",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 691
+    },
+    {
+      "day": "2026-09-16",
+      "region": "West",
+      "events": 6,
+      "cost_usd": 1434
+    },
+    {
+      "day": "2026-09-17",
+      "region": "Central",
+      "events": 6,
+      "cost_usd": 1484
+    },
+    {
+      "day": "2026-09-17",
+      "region": "East",
+      "events": 2,
+      "cost_usd": 537
+    },
+    {
+      "day": "2026-09-17",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 1025
+    },
+    {
+      "day": "2026-09-18",
+      "region": "Central",
+      "events": 7,
+      "cost_usd": 2427
+    },
+    {
+      "day": "2026-09-18",
+      "region": "East",
+      "events": 4,
+      "cost_usd": 1068
+    },
+    {
+      "day": "2026-09-18",
+      "region": "West",
+      "events": 1,
+      "cost_usd": 316
+    },
+    {
+      "day": "2026-09-19",
+      "region": "Central",
+      "events": 7,
+      "cost_usd": 1376
+    },
+    {
+      "day": "2026-09-19",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 671
+    },
+    {
+      "day": "2026-09-19",
+      "region": "West",
+      "events": 2,
+      "cost_usd": 319
+    },
+    {
+      "day": "2026-09-20",
+      "region": "Central",
+      "events": 4,
+      "cost_usd": 777
+    },
+    {
+      "day": "2026-09-20",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 712
+    },
+    {
+      "day": "2026-09-20",
+      "region": "West",
+      "events": 5,
+      "cost_usd": 1182
+    },
+    {
+      "day": "2026-09-21",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 730
+    },
+    {
+      "day": "2026-09-21",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 577
+    },
+    {
+      "day": "2026-09-21",
+      "region": "West",
+      "events": 6,
+      "cost_usd": 1600
+    },
+    {
+      "day": "2026-09-22",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 608
+    },
+    {
+      "day": "2026-09-22",
+      "region": "East",
+      "events": 4,
+      "cost_usd": 789
+    },
+    {
+      "day": "2026-09-22",
+      "region": "West",
+      "events": 5,
+      "cost_usd": 1050
+    },
+    {
+      "day": "2026-09-23",
+      "region": "Central",
+      "events": 7,
+      "cost_usd": 1360
+    },
+    {
+      "day": "2026-09-23",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 942
+    },
+    {
+      "day": "2026-09-23",
+      "region": "West",
+      "events": 2,
+      "cost_usd": 360
+    },
+    {
+      "day": "2026-09-24",
+      "region": "Central",
+      "events": 4,
+      "cost_usd": 945
+    },
+    {
+      "day": "2026-09-24",
+      "region": "East",
+      "events": 6,
+      "cost_usd": 2029
+    },
+    {
+      "day": "2026-09-24",
+      "region": "West",
+      "events": 2,
+      "cost_usd": 426
+    },
+    {
+      "day": "2026-09-25",
+      "region": "Central",
+      "events": 2,
+      "cost_usd": 468
+    },
+    {
+      "day": "2026-09-25",
+      "region": "East",
+      "events": 8,
+      "cost_usd": 1601
+    },
+    {
+      "day": "2026-09-25",
+      "region": "West",
+      "events": 2,
+      "cost_usd": 319
+    },
+    {
+      "day": "2026-09-26",
+      "region": "Central",
+      "events": 2,
+      "cost_usd": 551
+    },
+    {
+      "day": "2026-09-26",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 714
+    },
+    {
+      "day": "2026-09-26",
+      "region": "West",
+      "events": 7,
+      "cost_usd": 1665
+    },
+    {
+      "day": "2026-09-27",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 547
+    },
+    {
+      "day": "2026-09-27",
+      "region": "East",
+      "events": 5,
+      "cost_usd": 1540
+    },
+    {
+      "day": "2026-09-27",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 1123
+    },
+    {
+      "day": "2026-09-28",
+      "region": "Central",
+      "events": 5,
+      "cost_usd": 761
+    },
+    {
+      "day": "2026-09-28",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 304
+    },
+    {
+      "day": "2026-09-28",
+      "region": "West",
+      "events": 4,
+      "cost_usd": 619
+    },
+    {
+      "day": "2026-09-29",
+      "region": "Central",
+      "events": 3,
+      "cost_usd": 585
+    },
+    {
+      "day": "2026-09-29",
+      "region": "East",
+      "events": 3,
+      "cost_usd": 1022
+    },
+    {
+      "day": "2026-09-29",
+      "region": "West",
+      "events": 6,
+      "cost_usd": 1514
+    },
+    {
+      "day": "2026-09-30",
+      "region": "Central",
+      "events": 5,
+      "cost_usd": 1123
+    },
+    {
+      "day": "2026-09-30",
+      "region": "East",
+      "events": 4,
+      "cost_usd": 748
+    },
+    {
+      "day": "2026-09-30",
+      "region": "West",
+      "events": 3,
+      "cost_usd": 561
+    }
+  ],
+  "accepted": [
+    {
+      "event_id": "E0000",
+      "asset_id": "A008",
+      "day": "2026-09-01",
+      "duration_min": 11.0,
+      "cost_usd": 190,
+      "priority": "Routine",
+      "source_row": 0,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0001",
+      "asset_id": "A009",
+      "day": "2026-09-02",
+      "duration_min": 27.0,
+      "cost_usd": 354,
+      "priority": "High",
+      "source_row": 1,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0002",
+      "asset_id": "A028",
+      "day": "2026-09-03",
+      "duration_min": 24.0,
+      "cost_usd": 115,
+      "priority": "High",
+      "source_row": 2,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0003",
+      "asset_id": "A015",
+      "day": "2026-09-04",
+      "duration_min": 72.0,
+      "cost_usd": 63,
+      "priority": "Routine",
+      "source_row": 3,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0004",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": 67.0,
+      "cost_usd": 187,
+      "priority": "Routine",
+      "source_row": 4,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0005",
+      "asset_id": "A018",
+      "day": "2026-09-06",
+      "duration_min": 20.0,
+      "cost_usd": 181,
+      "priority": "Routine",
+      "source_row": 5,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0006",
+      "asset_id": "A022",
+      "day": "2026-09-07",
+      "duration_min": 43.0,
+      "cost_usd": 129,
+      "priority": "High",
+      "source_row": 6,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0007",
+      "asset_id": "A022",
+      "day": "2026-09-08",
+      "duration_min": 27.0,
+      "cost_usd": 122,
+      "priority": "Routine",
+      "source_row": 7,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0008",
+      "asset_id": "A023",
+      "day": "2026-09-09",
+      "duration_min": 64.0,
+      "cost_usd": 235,
+      "priority": "Routine",
+      "source_row": 8,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0009",
+      "asset_id": "A030",
+      "day": "2026-09-10",
+      "duration_min": 76.0,
+      "cost_usd": 113,
+      "priority": "Routine",
+      "source_row": 9,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0010",
+      "asset_id": "A025",
+      "day": "2026-09-11",
+      "duration_min": 24.0,
+      "cost_usd": 357,
+      "priority": "Routine",
+      "source_row": 10,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0011",
+      "asset_id": "A024",
+      "day": "2026-09-12",
+      "duration_min": 93.0,
+      "cost_usd": 198,
+      "priority": "Routine",
+      "source_row": 11,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0012",
+      "asset_id": "A003",
+      "day": "2026-09-13",
+      "duration_min": 92.0,
+      "cost_usd": 166,
+      "priority": "Routine",
+      "source_row": 12,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0013",
+      "asset_id": "A006",
+      "day": "2026-09-14",
+      "duration_min": 43.0,
+      "cost_usd": 126,
+      "priority": "Routine",
+      "source_row": 13,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0014",
+      "asset_id": "A030",
+      "day": "2026-09-15",
+      "duration_min": 101.0,
+      "cost_usd": 286,
+      "priority": "High",
+      "source_row": 14,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0015",
+      "asset_id": "A023",
+      "day": "2026-09-16",
+      "duration_min": 34.0,
+      "cost_usd": 186,
+      "priority": "Routine",
+      "source_row": 15,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0016",
+      "asset_id": "A005",
+      "day": "2026-09-17",
+      "duration_min": 91.0,
+      "cost_usd": 162,
+      "priority": "Routine",
+      "source_row": 16,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0017",
+      "asset_id": "A016",
+      "day": "2026-09-18",
+      "duration_min": 40.0,
+      "cost_usd": 336,
+      "priority": "Routine",
+      "source_row": 17,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0018",
+      "asset_id": "A036",
+      "day": "2026-09-19",
+      "duration_min": 36.0,
+      "cost_usd": 216,
+      "priority": "Routine",
+      "source_row": 18,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0019",
+      "asset_id": "A004",
+      "day": "2026-09-20",
+      "duration_min": 43.0,
+      "cost_usd": 91,
+      "priority": "Routine",
+      "source_row": 19,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0020",
+      "asset_id": "A026",
+      "day": "2026-09-21",
+      "duration_min": 54.0,
+      "cost_usd": 133,
+      "priority": "High",
+      "source_row": 20,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0021",
+      "asset_id": "A021",
+      "day": "2026-09-22",
+      "duration_min": 35.0,
+      "cost_usd": 305,
+      "priority": "Routine",
+      "source_row": 21,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0022",
+      "asset_id": "A030",
+      "day": "2026-09-23",
+      "duration_min": 32.0,
+      "cost_usd": 210,
+      "priority": "High",
+      "source_row": 22,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0023",
+      "asset_id": "A036",
+      "day": "2026-09-24",
+      "duration_min": 88.0,
+      "cost_usd": 234,
+      "priority": "Routine",
+      "source_row": 23,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0024",
+      "asset_id": "A028",
+      "day": "2026-09-25",
+      "duration_min": 82.0,
+      "cost_usd": 254,
+      "priority": "Routine",
+      "source_row": 24,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0025",
+      "asset_id": "A009",
+      "day": "2026-09-26",
+      "duration_min": 79.0,
+      "cost_usd": 327,
+      "priority": "High",
+      "source_row": 25,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0026",
+      "asset_id": "A004",
+      "day": "2026-09-27",
+      "duration_min": 34.0,
+      "cost_usd": 178,
+      "priority": "Routine",
+      "source_row": 26,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0027",
+      "asset_id": "A028",
+      "day": "2026-09-28",
+      "duration_min": 84.0,
+      "cost_usd": 82,
+      "priority": "Routine",
+      "source_row": 27,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0028",
+      "asset_id": "A030",
+      "day": "2026-09-29",
+      "duration_min": 81.0,
+      "cost_usd": 203,
+      "priority": "Routine",
+      "source_row": 28,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0029",
+      "asset_id": "A001",
+      "day": "2026-09-30",
+      "duration_min": 107.0,
+      "cost_usd": 158,
+      "priority": "Routine",
+      "source_row": 29,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0030",
+      "asset_id": "A035",
+      "day": "2026-09-01",
+      "duration_min": 42.0,
+      "cost_usd": 224,
+      "priority": "High",
+      "source_row": 30,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0031",
+      "asset_id": "A028",
+      "day": "2026-09-02",
+      "duration_min": 34.0,
+      "cost_usd": 307,
+      "priority": "High",
+      "source_row": 31,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0032",
+      "asset_id": "A017",
+      "day": "2026-09-03",
+      "duration_min": 84.0,
+      "cost_usd": 191,
+      "priority": "Routine",
+      "source_row": 32,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0033",
+      "asset_id": "A007",
+      "day": "2026-09-04",
+      "duration_min": 88.0,
+      "cost_usd": 202,
+      "priority": "Routine",
+      "source_row": 33,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0034",
+      "asset_id": "A033",
+      "day": "2026-09-05",
+      "duration_min": 91.0,
+      "cost_usd": 176,
+      "priority": "High",
+      "source_row": 34,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0035",
+      "asset_id": "A011",
+      "day": "2026-09-06",
+      "duration_min": 89.0,
+      "cost_usd": 371,
+      "priority": "Routine",
+      "source_row": 35,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0036",
+      "asset_id": "A021",
+      "day": "2026-09-07",
+      "duration_min": 70.0,
+      "cost_usd": 59,
+      "priority": "High",
+      "source_row": 36,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0037",
+      "asset_id": "A024",
+      "day": "2026-09-08",
+      "duration_min": 53.0,
+      "cost_usd": 197,
+      "priority": "High",
+      "source_row": 37,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0038",
+      "asset_id": "A006",
+      "day": "2026-09-09",
+      "duration_min": 30.0,
+      "cost_usd": 348,
+      "priority": "Routine",
+      "source_row": 38,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0039",
+      "asset_id": "A035",
+      "day": "2026-09-10",
+      "duration_min": 24.0,
+      "cost_usd": 115,
+      "priority": "Routine",
+      "source_row": 39,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0040",
+      "asset_id": "A036",
+      "day": "2026-09-11",
+      "duration_min": 35.0,
+      "cost_usd": 210,
+      "priority": "Routine",
+      "source_row": 40,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0041",
+      "asset_id": "A028",
+      "day": "2026-09-12",
+      "duration_min": 47.0,
+      "cost_usd": 376,
+      "priority": "Routine",
+      "source_row": 41,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0042",
+      "asset_id": "A013",
+      "day": "2026-09-13",
+      "duration_min": 47.0,
+      "cost_usd": 254,
+      "priority": "Routine",
+      "source_row": 42,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0043",
+      "asset_id": "A024",
+      "day": "2026-09-14",
+      "duration_min": 70.0,
+      "cost_usd": 339,
+      "priority": "Routine",
+      "source_row": 43,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0044",
+      "asset_id": "A016",
+      "day": "2026-09-15",
+      "duration_min": 48.0,
+      "cost_usd": 132,
+      "priority": "Routine",
+      "source_row": 44,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0045",
+      "asset_id": "A036",
+      "day": "2026-09-16",
+      "duration_min": 37.0,
+      "cost_usd": 162,
+      "priority": "High",
+      "source_row": 45,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0046",
+      "asset_id": "A004",
+      "day": "2026-09-17",
+      "duration_min": 43.0,
+      "cost_usd": 109,
+      "priority": "Routine",
+      "source_row": 46,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0047",
+      "asset_id": "A022",
+      "day": "2026-09-18",
+      "duration_min": 29.0,
+      "cost_usd": 363,
+      "priority": "Routine",
+      "source_row": 47,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0048",
+      "asset_id": "A032",
+      "day": "2026-09-19",
+      "duration_min": 35.0,
+      "cost_usd": 326,
+      "priority": "High",
+      "source_row": 48,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0049",
+      "asset_id": "A031",
+      "day": "2026-09-20",
+      "duration_min": 45.0,
+      "cost_usd": 317,
+      "priority": "Routine",
+      "source_row": 49,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0050",
+      "asset_id": "A013",
+      "day": "2026-09-21",
+      "duration_min": 32.0,
+      "cost_usd": 149,
+      "priority": "Routine",
+      "source_row": 50,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0051",
+      "asset_id": "A023",
+      "day": "2026-09-22",
+      "duration_min": 62.0,
+      "cost_usd": 260,
+      "priority": "Routine",
+      "source_row": 51,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0052",
+      "asset_id": "A004",
+      "day": "2026-09-23",
+      "duration_min": 100.0,
+      "cost_usd": 125,
+      "priority": "High",
+      "source_row": 52,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0053",
+      "asset_id": "A022",
+      "day": "2026-09-24",
+      "duration_min": 33.0,
+      "cost_usd": 227,
+      "priority": "High",
+      "source_row": 53,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0054",
+      "asset_id": "A035",
+      "day": "2026-09-25",
+      "duration_min": 65.0,
+      "cost_usd": 121,
+      "priority": "Routine",
+      "source_row": 54,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0055",
+      "asset_id": "A018",
+      "day": "2026-09-26",
+      "duration_min": 73.0,
+      "cost_usd": 202,
+      "priority": "Routine",
+      "source_row": 55,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0056",
+      "asset_id": "A005",
+      "day": "2026-09-27",
+      "duration_min": 76.0,
+      "cost_usd": 381,
+      "priority": "High",
+      "source_row": 56,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0057",
+      "asset_id": "A035",
+      "day": "2026-09-28",
+      "duration_min": 9.0,
+      "cost_usd": 97,
+      "priority": "Routine",
+      "source_row": 57,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0058",
+      "asset_id": "A016",
+      "day": "2026-09-29",
+      "duration_min": 35.0,
+      "cost_usd": 283,
+      "priority": "Routine",
+      "source_row": 58,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0059",
+      "asset_id": "A014",
+      "day": "2026-09-30",
+      "duration_min": 71.0,
+      "cost_usd": 130,
+      "priority": "High",
+      "source_row": 59,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0060",
+      "asset_id": "A001",
+      "day": "2026-09-01",
+      "duration_min": 57.0,
+      "cost_usd": 185,
+      "priority": "Routine",
+      "source_row": 60,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0061",
+      "asset_id": "A030",
+      "day": "2026-09-02",
+      "duration_min": 50.0,
+      "cost_usd": 291,
+      "priority": "Routine",
+      "source_row": 61,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0062",
+      "asset_id": "A036",
+      "day": "2026-09-03",
+      "duration_min": 104.0,
+      "cost_usd": 349,
+      "priority": "High",
+      "source_row": 62,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0063",
+      "asset_id": "A019",
+      "day": "2026-09-04",
+      "duration_min": 35.0,
+      "cost_usd": 79,
+      "priority": "Routine",
+      "source_row": 63,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0064",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": 21.0,
+      "cost_usd": 235,
+      "priority": "High",
+      "source_row": 64,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0065",
+      "asset_id": "A031",
+      "day": "2026-09-06",
+      "duration_min": 84.0,
+      "cost_usd": 371,
+      "priority": "High",
+      "source_row": 65,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0066",
+      "asset_id": "A033",
+      "day": "2026-09-07",
+      "duration_min": 18.0,
+      "cost_usd": 145,
+      "priority": "High",
+      "source_row": 66,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0067",
+      "asset_id": "A005",
+      "day": "2026-09-08",
+      "duration_min": 100.0,
+      "cost_usd": 195,
+      "priority": "Routine",
+      "source_row": 67,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0068",
+      "asset_id": "A016",
+      "day": "2026-09-09",
+      "duration_min": 94.0,
+      "cost_usd": 120,
+      "priority": "Routine",
+      "source_row": 68,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0069",
+      "asset_id": "A027",
+      "day": "2026-09-10",
+      "duration_min": 92.0,
+      "cost_usd": 348,
+      "priority": "Routine",
+      "source_row": 69,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0070",
+      "asset_id": "A021",
+      "day": "2026-09-11",
+      "duration_min": 47.0,
+      "cost_usd": 179,
+      "priority": "Routine",
+      "source_row": 70,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0071",
+      "asset_id": "A021",
+      "day": "2026-09-12",
+      "duration_min": 50.0,
+      "cost_usd": 235,
+      "priority": "Routine",
+      "source_row": 71,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0072",
+      "asset_id": "A020",
+      "day": "2026-09-13",
+      "duration_min": 66.0,
+      "cost_usd": 211,
+      "priority": "Routine",
+      "source_row": 72,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0073",
+      "asset_id": "A005",
+      "day": "2026-09-14",
+      "duration_min": 15.0,
+      "cost_usd": 309,
+      "priority": "Routine",
+      "source_row": 73,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0074",
+      "asset_id": "A007",
+      "day": "2026-09-15",
+      "duration_min": 29.0,
+      "cost_usd": 375,
+      "priority": "High",
+      "source_row": 74,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0075",
+      "asset_id": "A017",
+      "day": "2026-09-16",
+      "duration_min": 24.0,
+      "cost_usd": 228,
+      "priority": "Routine",
+      "source_row": 75,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0076",
+      "asset_id": "A016",
+      "day": "2026-09-17",
+      "duration_min": 61.0,
+      "cost_usd": 220,
+      "priority": "High",
+      "source_row": 76,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0077",
+      "asset_id": "A035",
+      "day": "2026-09-18",
+      "duration_min": 58.0,
+      "cost_usd": 370,
+      "priority": "High",
+      "source_row": 77,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0078",
+      "asset_id": "A036",
+      "day": "2026-09-19",
+      "duration_min": 46.0,
+      "cost_usd": 103,
+      "priority": "Routine",
+      "source_row": 78,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0079",
+      "asset_id": "A009",
+      "day": "2026-09-20",
+      "duration_min": 47.0,
+      "cost_usd": 134,
+      "priority": "Routine",
+      "source_row": 79,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0080",
+      "asset_id": "A036",
+      "day": "2026-09-21",
+      "duration_min": 39.0,
+      "cost_usd": 239,
+      "priority": "Routine",
+      "source_row": 80,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0081",
+      "asset_id": "A014",
+      "day": "2026-09-22",
+      "duration_min": 51.0,
+      "cost_usd": 154,
+      "priority": "Routine",
+      "source_row": 81,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0082",
+      "asset_id": "A017",
+      "day": "2026-09-23",
+      "duration_min": 78.0,
+      "cost_usd": 325,
+      "priority": "Routine",
+      "source_row": 82,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0083",
+      "asset_id": "A004",
+      "day": "2026-09-24",
+      "duration_min": 31.0,
+      "cost_usd": 316,
+      "priority": "Routine",
+      "source_row": 83,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0084",
+      "asset_id": "A003",
+      "day": "2026-09-25",
+      "duration_min": 8.0,
+      "cost_usd": 220,
+      "priority": "Routine",
+      "source_row": 84,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0085",
+      "asset_id": "A017",
+      "day": "2026-09-26",
+      "duration_min": 34.0,
+      "cost_usd": 301,
+      "priority": "Routine",
+      "source_row": 85,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0086",
+      "asset_id": "A028",
+      "day": "2026-09-27",
+      "duration_min": 91.0,
+      "cost_usd": 104,
+      "priority": "High",
+      "source_row": 86,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0087",
+      "asset_id": "A010",
+      "day": "2026-09-28",
+      "duration_min": 77.0,
+      "cost_usd": 68,
+      "priority": "Routine",
+      "source_row": 87,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0088",
+      "asset_id": "A036",
+      "day": "2026-09-29",
+      "duration_min": 32.0,
+      "cost_usd": 295,
+      "priority": "High",
+      "source_row": 88,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0089",
+      "asset_id": "A020",
+      "day": "2026-09-30",
+      "duration_min": 66.0,
+      "cost_usd": 120,
+      "priority": "Routine",
+      "source_row": 89,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0090",
+      "asset_id": "A014",
+      "day": "2026-09-01",
+      "duration_min": 95.0,
+      "cost_usd": 177,
+      "priority": "Routine",
+      "source_row": 90,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0091",
+      "asset_id": "A023",
+      "day": "2026-09-02",
+      "duration_min": 85.0,
+      "cost_usd": 283,
+      "priority": "Routine",
+      "source_row": 91,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0092",
+      "asset_id": "A010",
+      "day": "2026-09-03",
+      "duration_min": 50.0,
+      "cost_usd": 183,
+      "priority": "Routine",
+      "source_row": 92,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0093",
+      "asset_id": "A012",
+      "day": "2026-09-04",
+      "duration_min": 60.0,
+      "cost_usd": 62,
+      "priority": "High",
+      "source_row": 93,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0094",
+      "asset_id": "A022",
+      "day": "2026-09-05",
+      "duration_min": 66.0,
+      "cost_usd": 202,
+      "priority": "Routine",
+      "source_row": 94,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0095",
+      "asset_id": "A007",
+      "day": "2026-09-06",
+      "duration_min": 68.0,
+      "cost_usd": 119,
+      "priority": "Routine",
+      "source_row": 95,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0096",
+      "asset_id": "A015",
+      "day": "2026-09-07",
+      "duration_min": 33.0,
+      "cost_usd": 285,
+      "priority": "Routine",
+      "source_row": 96,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0097",
+      "asset_id": "A015",
+      "day": "2026-09-08",
+      "duration_min": 42.0,
+      "cost_usd": 87,
+      "priority": "Routine",
+      "source_row": 97,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0098",
+      "asset_id": "A026",
+      "day": "2026-09-09",
+      "duration_min": 62.0,
+      "cost_usd": 242,
+      "priority": "Routine",
+      "source_row": 98,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0099",
+      "asset_id": "A018",
+      "day": "2026-09-10",
+      "duration_min": 52.0,
+      "cost_usd": 310,
+      "priority": "Routine",
+      "source_row": 99,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0100",
+      "asset_id": "A035",
+      "day": "2026-09-11",
+      "duration_min": 56.0,
+      "cost_usd": 89,
+      "priority": "High",
+      "source_row": 100,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0101",
+      "asset_id": "A017",
+      "day": "2026-09-12",
+      "duration_min": 42.0,
+      "cost_usd": 397,
+      "priority": "Routine",
+      "source_row": 101,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0102",
+      "asset_id": "A017",
+      "day": "2026-09-13",
+      "duration_min": 12.0,
+      "cost_usd": 105,
+      "priority": "Routine",
+      "source_row": 102,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0103",
+      "asset_id": "A023",
+      "day": "2026-09-14",
+      "duration_min": 54.0,
+      "cost_usd": 298,
+      "priority": "Routine",
+      "source_row": 103,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0104",
+      "asset_id": "A033",
+      "day": "2026-09-15",
+      "duration_min": 34.0,
+      "cost_usd": 297,
+      "priority": "Routine",
+      "source_row": 104,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0105",
+      "asset_id": "A013",
+      "day": "2026-09-16",
+      "duration_min": 40.0,
+      "cost_usd": 72,
+      "priority": "Routine",
+      "source_row": 105,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0106",
+      "asset_id": "A001",
+      "day": "2026-09-17",
+      "duration_min": 80.0,
+      "cost_usd": 350,
+      "priority": "Routine",
+      "source_row": 106,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0107",
+      "asset_id": "A013",
+      "day": "2026-09-18",
+      "duration_min": 66.0,
+      "cost_usd": 320,
+      "priority": "High",
+      "source_row": 107,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0108",
+      "asset_id": "A022",
+      "day": "2026-09-19",
+      "duration_min": 87.0,
+      "cost_usd": 210,
+      "priority": "Routine",
+      "source_row": 108,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0109",
+      "asset_id": "A008",
+      "day": "2026-09-20",
+      "duration_min": 52.0,
+      "cost_usd": 334,
+      "priority": "Routine",
+      "source_row": 109,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0110",
+      "asset_id": "A027",
+      "day": "2026-09-21",
+      "duration_min": 61.0,
+      "cost_usd": 306,
+      "priority": "Routine",
+      "source_row": 110,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0111",
+      "asset_id": "A036",
+      "day": "2026-09-22",
+      "duration_min": 24.0,
+      "cost_usd": 148,
+      "priority": "Routine",
+      "source_row": 111,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0112",
+      "asset_id": "A025",
+      "day": "2026-09-23",
+      "duration_min": 100.0,
+      "cost_usd": 164,
+      "priority": "Routine",
+      "source_row": 112,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0113",
+      "asset_id": "A020",
+      "day": "2026-09-24",
+      "duration_min": 71.0,
+      "cost_usd": 380,
+      "priority": "Routine",
+      "source_row": 113,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0114",
+      "asset_id": "A020",
+      "day": "2026-09-25",
+      "duration_min": 44.0,
+      "cost_usd": 157,
+      "priority": "Routine",
+      "source_row": 114,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0115",
+      "asset_id": "A021",
+      "day": "2026-09-26",
+      "duration_min": 73.0,
+      "cost_usd": 301,
+      "priority": "Routine",
+      "source_row": 115,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0116",
+      "asset_id": "A014",
+      "day": "2026-09-27",
+      "duration_min": 85.0,
+      "cost_usd": 342,
+      "priority": "Routine",
+      "source_row": 116,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0117",
+      "asset_id": "A011",
+      "day": "2026-09-28",
+      "duration_min": 92.0,
+      "cost_usd": 93,
+      "priority": "Routine",
+      "source_row": 117,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0118",
+      "asset_id": "A022",
+      "day": "2026-09-29",
+      "duration_min": 25.0,
+      "cost_usd": 195,
+      "priority": "Routine",
+      "source_row": 118,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0119",
+      "asset_id": "A015",
+      "day": "2026-09-30",
+      "duration_min": 45.0,
+      "cost_usd": 175,
+      "priority": "High",
+      "source_row": 119,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0120",
+      "asset_id": "A016",
+      "day": "2026-09-01",
+      "duration_min": 68.0,
+      "cost_usd": 87,
+      "priority": "Routine",
+      "source_row": 120,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0121",
+      "asset_id": "A013",
+      "day": "2026-09-02",
+      "duration_min": 63.0,
+      "cost_usd": 328,
+      "priority": "Routine",
+      "source_row": 121,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0122",
+      "asset_id": "A010",
+      "day": "2026-09-03",
+      "duration_min": 103.0,
+      "cost_usd": 102,
+      "priority": "Routine",
+      "source_row": 122,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0123",
+      "asset_id": "A007",
+      "day": "2026-09-04",
+      "duration_min": 62.0,
+      "cost_usd": 162,
+      "priority": "High",
+      "source_row": 123,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0124",
+      "asset_id": "A034",
+      "day": "2026-09-05",
+      "duration_min": 73.0,
+      "cost_usd": 100,
+      "priority": "Routine",
+      "source_row": 124,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0125",
+      "asset_id": "A008",
+      "day": "2026-09-06",
+      "duration_min": 78.0,
+      "cost_usd": 168,
+      "priority": "Routine",
+      "source_row": 125,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0126",
+      "asset_id": "A034",
+      "day": "2026-09-07",
+      "duration_min": 79.0,
+      "cost_usd": 212,
+      "priority": "Routine",
+      "source_row": 126,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0127",
+      "asset_id": "A029",
+      "day": "2026-09-08",
+      "duration_min": 92.0,
+      "cost_usd": 333,
+      "priority": "Routine",
+      "source_row": 127,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0128",
+      "asset_id": "A036",
+      "day": "2026-09-09",
+      "duration_min": 77.0,
+      "cost_usd": 181,
+      "priority": "Routine",
+      "source_row": 128,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0129",
+      "asset_id": "A031",
+      "day": "2026-09-10",
+      "duration_min": 65.0,
+      "cost_usd": 182,
+      "priority": "Routine",
+      "source_row": 129,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0130",
+      "asset_id": "A018",
+      "day": "2026-09-11",
+      "duration_min": 80.0,
+      "cost_usd": 323,
+      "priority": "Routine",
+      "source_row": 130,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0131",
+      "asset_id": "A018",
+      "day": "2026-09-12",
+      "duration_min": 76.0,
+      "cost_usd": 139,
+      "priority": "Routine",
+      "source_row": 131,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0132",
+      "asset_id": "A016",
+      "day": "2026-09-13",
+      "duration_min": 42.0,
+      "cost_usd": 221,
+      "priority": "Routine",
+      "source_row": 132,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0133",
+      "asset_id": "A035",
+      "day": "2026-09-14",
+      "duration_min": 24.0,
+      "cost_usd": 145,
+      "priority": "High",
+      "source_row": 133,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0134",
+      "asset_id": "A025",
+      "day": "2026-09-15",
+      "duration_min": 39.0,
+      "cost_usd": 209,
+      "priority": "High",
+      "source_row": 134,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0135",
+      "asset_id": "A027",
+      "day": "2026-09-16",
+      "duration_min": 50.0,
+      "cost_usd": 327,
+      "priority": "Routine",
+      "source_row": 135,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0136",
+      "asset_id": "A004",
+      "day": "2026-09-17",
+      "duration_min": 40.0,
+      "cost_usd": 290,
+      "priority": "Routine",
+      "source_row": 136,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0137",
+      "asset_id": "A002",
+      "day": "2026-09-18",
+      "duration_min": 93.0,
+      "cost_usd": 294,
+      "priority": "Routine",
+      "source_row": 137,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0138",
+      "asset_id": "A023",
+      "day": "2026-09-19",
+      "duration_min": 46.0,
+      "cost_usd": 249,
+      "priority": "Routine",
+      "source_row": 138,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0139",
+      "asset_id": "A027",
+      "day": "2026-09-20",
+      "duration_min": 82.0,
+      "cost_usd": 354,
+      "priority": "Routine",
+      "source_row": 139,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0140",
+      "asset_id": "A015",
+      "day": "2026-09-21",
+      "duration_min": 82.0,
+      "cost_usd": 212,
+      "priority": "Routine",
+      "source_row": 140,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0141",
+      "asset_id": "A032",
+      "day": "2026-09-22",
+      "duration_min": 11.0,
+      "cost_usd": 249,
+      "priority": "Routine",
+      "source_row": 141,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0142",
+      "asset_id": "A026",
+      "day": "2026-09-23",
+      "duration_min": 35.0,
+      "cost_usd": 314,
+      "priority": "Routine",
+      "source_row": 142,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0143",
+      "asset_id": "A035",
+      "day": "2026-09-24",
+      "duration_min": 23.0,
+      "cost_usd": 301,
+      "priority": "Routine",
+      "source_row": 143,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0144",
+      "asset_id": "A002",
+      "day": "2026-09-25",
+      "duration_min": 18.0,
+      "cost_usd": 269,
+      "priority": "High",
+      "source_row": 144,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0145",
+      "asset_id": "A030",
+      "day": "2026-09-26",
+      "duration_min": 37.0,
+      "cost_usd": 100,
+      "priority": "Routine",
+      "source_row": 145,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0146",
+      "asset_id": "A021",
+      "day": "2026-09-27",
+      "duration_min": 47.0,
+      "cost_usd": 332,
+      "priority": "Routine",
+      "source_row": 146,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0147",
+      "asset_id": "A025",
+      "day": "2026-09-28",
+      "duration_min": 43.0,
+      "cost_usd": 265,
+      "priority": "Routine",
+      "source_row": 147,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0148",
+      "asset_id": "A006",
+      "day": "2026-09-29",
+      "duration_min": 74.0,
+      "cost_usd": 84,
+      "priority": "Routine",
+      "source_row": 148,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0149",
+      "asset_id": "A004",
+      "day": "2026-09-30",
+      "duration_min": 64.0,
+      "cost_usd": 214,
+      "priority": "Routine",
+      "source_row": 149,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0150",
+      "asset_id": "A003",
+      "day": "2026-09-01",
+      "duration_min": 11.0,
+      "cost_usd": 176,
+      "priority": "High",
+      "source_row": 150,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0151",
+      "asset_id": "A002",
+      "day": "2026-09-02",
+      "duration_min": 93.0,
+      "cost_usd": 153,
+      "priority": "Routine",
+      "source_row": 151,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0152",
+      "asset_id": "A031",
+      "day": "2026-09-03",
+      "duration_min": 105.0,
+      "cost_usd": 158,
+      "priority": "Routine",
+      "source_row": 152,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0153",
+      "asset_id": "A014",
+      "day": "2026-09-04",
+      "duration_min": 67.0,
+      "cost_usd": 181,
+      "priority": "Routine",
+      "source_row": 153,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0154",
+      "asset_id": "A011",
+      "day": "2026-09-05",
+      "duration_min": 91.0,
+      "cost_usd": 133,
+      "priority": "Routine",
+      "source_row": 154,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0155",
+      "asset_id": "A011",
+      "day": "2026-09-06",
+      "duration_min": 59.0,
+      "cost_usd": 155,
+      "priority": "Routine",
+      "source_row": 155,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0156",
+      "asset_id": "A020",
+      "day": "2026-09-07",
+      "duration_min": 81.0,
+      "cost_usd": 242,
+      "priority": "Routine",
+      "source_row": 156,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0157",
+      "asset_id": "A013",
+      "day": "2026-09-08",
+      "duration_min": 23.0,
+      "cost_usd": 199,
+      "priority": "High",
+      "source_row": 157,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0158",
+      "asset_id": "A020",
+      "day": "2026-09-09",
+      "duration_min": 107.0,
+      "cost_usd": 161,
+      "priority": "Routine",
+      "source_row": 158,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0159",
+      "asset_id": "A003",
+      "day": "2026-09-10",
+      "duration_min": 52.0,
+      "cost_usd": 322,
+      "priority": "Routine",
+      "source_row": 159,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0160",
+      "asset_id": "A024",
+      "day": "2026-09-11",
+      "duration_min": 22.0,
+      "cost_usd": 334,
+      "priority": "Routine",
+      "source_row": 160,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0161",
+      "asset_id": "A001",
+      "day": "2026-09-12",
+      "duration_min": 73.0,
+      "cost_usd": 350,
+      "priority": "High",
+      "source_row": 161,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0162",
+      "asset_id": "A024",
+      "day": "2026-09-13",
+      "duration_min": 89.0,
+      "cost_usd": 285,
+      "priority": "Routine",
+      "source_row": 162,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0163",
+      "asset_id": "A028",
+      "day": "2026-09-14",
+      "duration_min": 36.0,
+      "cost_usd": 342,
+      "priority": "Routine",
+      "source_row": 163,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0164",
+      "asset_id": "A018",
+      "day": "2026-09-15",
+      "duration_min": 98.0,
+      "cost_usd": 375,
+      "priority": "Routine",
+      "source_row": 164,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0165",
+      "asset_id": "A030",
+      "day": "2026-09-16",
+      "duration_min": 63.0,
+      "cost_usd": 187,
+      "priority": "Routine",
+      "source_row": 165,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0166",
+      "asset_id": "A016",
+      "day": "2026-09-17",
+      "duration_min": 25.0,
+      "cost_usd": 217,
+      "priority": "Routine",
+      "source_row": 166,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0167",
+      "asset_id": "A016",
+      "day": "2026-09-18",
+      "duration_min": 79.0,
+      "cost_usd": 391,
+      "priority": "Routine",
+      "source_row": 167,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0168",
+      "asset_id": "A025",
+      "day": "2026-09-19",
+      "duration_min": 51.0,
+      "cost_usd": 64,
+      "priority": "Routine",
+      "source_row": 168,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0169",
+      "asset_id": "A021",
+      "day": "2026-09-20",
+      "duration_min": 37.0,
+      "cost_usd": 324,
+      "priority": "High",
+      "source_row": 169,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0170",
+      "asset_id": "A017",
+      "day": "2026-09-21",
+      "duration_min": 63.0,
+      "cost_usd": 243,
+      "priority": "Routine",
+      "source_row": 170,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0171",
+      "asset_id": "A018",
+      "day": "2026-09-22",
+      "duration_min": 79.0,
+      "cost_usd": 55,
+      "priority": "Routine",
+      "source_row": 171,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0172",
+      "asset_id": "A013",
+      "day": "2026-09-23",
+      "duration_min": 24.0,
+      "cost_usd": 198,
+      "priority": "Routine",
+      "source_row": 172,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0173",
+      "asset_id": "A032",
+      "day": "2026-09-24",
+      "duration_min": 91.0,
+      "cost_usd": 223,
+      "priority": "Routine",
+      "source_row": 173,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0174",
+      "asset_id": "A032",
+      "day": "2026-09-25",
+      "duration_min": 65.0,
+      "cost_usd": 58,
+      "priority": "High",
+      "source_row": 174,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0175",
+      "asset_id": "A015",
+      "day": "2026-09-26",
+      "duration_min": 65.0,
+      "cost_usd": 199,
+      "priority": "Routine",
+      "source_row": 175,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0176",
+      "asset_id": "A024",
+      "day": "2026-09-27",
+      "duration_min": 80.0,
+      "cost_usd": 383,
+      "priority": "Routine",
+      "source_row": 176,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0177",
+      "asset_id": "A028",
+      "day": "2026-09-28",
+      "duration_min": 78.0,
+      "cost_usd": 219,
+      "priority": "Routine",
+      "source_row": 177,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0178",
+      "asset_id": "A030",
+      "day": "2026-09-29",
+      "duration_min": 48.0,
+      "cost_usd": 231,
+      "priority": "Routine",
+      "source_row": 178,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0179",
+      "asset_id": "A008",
+      "day": "2026-09-30",
+      "duration_min": 44.0,
+      "cost_usd": 261,
+      "priority": "High",
+      "source_row": 179,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0180",
+      "asset_id": "A035",
+      "day": "2026-09-01",
+      "duration_min": 31.0,
+      "cost_usd": 148,
+      "priority": "High",
+      "source_row": 180,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0181",
+      "asset_id": "A031",
+      "day": "2026-09-02",
+      "duration_min": 49.0,
+      "cost_usd": 343,
+      "priority": "Routine",
+      "source_row": 181,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0182",
+      "asset_id": "A007",
+      "day": "2026-09-03",
+      "duration_min": 44.0,
+      "cost_usd": 251,
+      "priority": "High",
+      "source_row": 182,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0183",
+      "asset_id": "A012",
+      "day": "2026-09-04",
+      "duration_min": 46.0,
+      "cost_usd": 57,
+      "priority": "Routine",
+      "source_row": 183,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0184",
+      "asset_id": "A009",
+      "day": "2026-09-05",
+      "duration_min": 49.0,
+      "cost_usd": 98,
+      "priority": "Routine",
+      "source_row": 184,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0185",
+      "asset_id": "A036",
+      "day": "2026-09-06",
+      "duration_min": 57.0,
+      "cost_usd": 164,
+      "priority": "Routine",
+      "source_row": 185,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0186",
+      "asset_id": "A032",
+      "day": "2026-09-07",
+      "duration_min": 21.0,
+      "cost_usd": 56,
+      "priority": "Routine",
+      "source_row": 186,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0187",
+      "asset_id": "A031",
+      "day": "2026-09-08",
+      "duration_min": 75.0,
+      "cost_usd": 300,
+      "priority": "Routine",
+      "source_row": 187,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0188",
+      "asset_id": "A004",
+      "day": "2026-09-09",
+      "duration_min": 52.0,
+      "cost_usd": 344,
+      "priority": "High",
+      "source_row": 188,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0189",
+      "asset_id": "A005",
+      "day": "2026-09-10",
+      "duration_min": 59.0,
+      "cost_usd": 301,
+      "priority": "High",
+      "source_row": 189,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0190",
+      "asset_id": "A004",
+      "day": "2026-09-11",
+      "duration_min": 33.0,
+      "cost_usd": 151,
+      "priority": "Routine",
+      "source_row": 190,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0191",
+      "asset_id": "A020",
+      "day": "2026-09-12",
+      "duration_min": 30.0,
+      "cost_usd": 227,
+      "priority": "High",
+      "source_row": 191,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0192",
+      "asset_id": "A027",
+      "day": "2026-09-13",
+      "duration_min": 85.0,
+      "cost_usd": 165,
+      "priority": "Routine",
+      "source_row": 192,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0193",
+      "asset_id": "A025",
+      "day": "2026-09-14",
+      "duration_min": 71.0,
+      "cost_usd": 301,
+      "priority": "Routine",
+      "source_row": 193,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0194",
+      "asset_id": "A028",
+      "day": "2026-09-15",
+      "duration_min": 59.0,
+      "cost_usd": 391,
+      "priority": "Routine",
+      "source_row": 194,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0195",
+      "asset_id": "A007",
+      "day": "2026-09-16",
+      "duration_min": 34.0,
+      "cost_usd": 158,
+      "priority": "Routine",
+      "source_row": 195,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0196",
+      "asset_id": "A006",
+      "day": "2026-09-17",
+      "duration_min": 34.0,
+      "cost_usd": 197,
+      "priority": "High",
+      "source_row": 196,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0197",
+      "asset_id": "A005",
+      "day": "2026-09-18",
+      "duration_min": 40.0,
+      "cost_usd": 101,
+      "priority": "Routine",
+      "source_row": 197,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0198",
+      "asset_id": "A031",
+      "day": "2026-09-19",
+      "duration_min": 45.0,
+      "cost_usd": 66,
+      "priority": "Routine",
+      "source_row": 198,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0199",
+      "asset_id": "A019",
+      "day": "2026-09-20",
+      "duration_min": 72.0,
+      "cost_usd": 111,
+      "priority": "Routine",
+      "source_row": 199,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0200",
+      "asset_id": "A017",
+      "day": "2026-09-21",
+      "duration_min": 100.0,
+      "cost_usd": 201,
+      "priority": "Routine",
+      "source_row": 200,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0201",
+      "asset_id": "A035",
+      "day": "2026-09-22",
+      "duration_min": 36.0,
+      "cost_usd": 126,
+      "priority": "Routine",
+      "source_row": 201,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0202",
+      "asset_id": "A010",
+      "day": "2026-09-23",
+      "duration_min": 23.0,
+      "cost_usd": 105,
+      "priority": "High",
+      "source_row": 202,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0203",
+      "asset_id": "A020",
+      "day": "2026-09-24",
+      "duration_min": 96.0,
+      "cost_usd": 391,
+      "priority": "Routine",
+      "source_row": 203,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0204",
+      "asset_id": "A029",
+      "day": "2026-09-25",
+      "duration_min": 23.0,
+      "cost_usd": 289,
+      "priority": "Routine",
+      "source_row": 204,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0205",
+      "asset_id": "A026",
+      "day": "2026-09-26",
+      "duration_min": 48.0,
+      "cost_usd": 331,
+      "priority": "Routine",
+      "source_row": 205,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0206",
+      "asset_id": "A029",
+      "day": "2026-09-27",
+      "duration_min": 30.0,
+      "cost_usd": 120,
+      "priority": "Routine",
+      "source_row": 206,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0207",
+      "asset_id": "A021",
+      "day": "2026-09-28",
+      "duration_min": 85.0,
+      "cost_usd": 178,
+      "priority": "High",
+      "source_row": 207,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0208",
+      "asset_id": "A015",
+      "day": "2026-09-29",
+      "duration_min": 100.0,
+      "cost_usd": 369,
+      "priority": "Routine",
+      "source_row": 208,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0209",
+      "asset_id": "A002",
+      "day": "2026-09-30",
+      "duration_min": 106.0,
+      "cost_usd": 237,
+      "priority": "Routine",
+      "source_row": 209,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0210",
+      "asset_id": "A012",
+      "day": "2026-09-01",
+      "duration_min": 68.0,
+      "cost_usd": 315,
+      "priority": "Routine",
+      "source_row": 210,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0211",
+      "asset_id": "A018",
+      "day": "2026-09-02",
+      "duration_min": 37.0,
+      "cost_usd": 374,
+      "priority": "Routine",
+      "source_row": 211,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0212",
+      "asset_id": "A032",
+      "day": "2026-09-03",
+      "duration_min": 31.0,
+      "cost_usd": 340,
+      "priority": "Routine",
+      "source_row": 212,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0213",
+      "asset_id": "A022",
+      "day": "2026-09-04",
+      "duration_min": 49.0,
+      "cost_usd": 103,
+      "priority": "Routine",
+      "source_row": 213,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0214",
+      "asset_id": "A022",
+      "day": "2026-09-05",
+      "duration_min": 66.0,
+      "cost_usd": 328,
+      "priority": "Routine",
+      "source_row": 214,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0215",
+      "asset_id": "A026",
+      "day": "2026-09-06",
+      "duration_min": 90.0,
+      "cost_usd": 118,
+      "priority": "Routine",
+      "source_row": 215,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0216",
+      "asset_id": "A021",
+      "day": "2026-09-07",
+      "duration_min": 40.0,
+      "cost_usd": 215,
+      "priority": "High",
+      "source_row": 216,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0217",
+      "asset_id": "A026",
+      "day": "2026-09-08",
+      "duration_min": 79.0,
+      "cost_usd": 75,
+      "priority": "Routine",
+      "source_row": 217,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0218",
+      "asset_id": "A035",
+      "day": "2026-09-09",
+      "duration_min": 79.0,
+      "cost_usd": 311,
+      "priority": "High",
+      "source_row": 218,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0219",
+      "asset_id": "A034",
+      "day": "2026-09-10",
+      "duration_min": 54.0,
+      "cost_usd": 305,
+      "priority": "Routine",
+      "source_row": 219,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0220",
+      "asset_id": "A004",
+      "day": "2026-09-11",
+      "duration_min": 40.0,
+      "cost_usd": 211,
+      "priority": "Routine",
+      "source_row": 220,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0221",
+      "asset_id": "A019",
+      "day": "2026-09-12",
+      "duration_min": 76.0,
+      "cost_usd": 348,
+      "priority": "High",
+      "source_row": 221,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0222",
+      "asset_id": "A016",
+      "day": "2026-09-13",
+      "duration_min": 28.0,
+      "cost_usd": 209,
+      "priority": "Routine",
+      "source_row": 222,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0223",
+      "asset_id": "A036",
+      "day": "2026-09-14",
+      "duration_min": 66.0,
+      "cost_usd": 122,
+      "priority": "High",
+      "source_row": 223,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0224",
+      "asset_id": "A008",
+      "day": "2026-09-15",
+      "duration_min": 79.0,
+      "cost_usd": 160,
+      "priority": "Routine",
+      "source_row": 224,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0225",
+      "asset_id": "A010",
+      "day": "2026-09-16",
+      "duration_min": 71.0,
+      "cost_usd": 199,
+      "priority": "Routine",
+      "source_row": 225,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0226",
+      "asset_id": "A018",
+      "day": "2026-09-17",
+      "duration_min": 67.0,
+      "cost_usd": 322,
+      "priority": "Routine",
+      "source_row": 226,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0227",
+      "asset_id": "A016",
+      "day": "2026-09-18",
+      "duration_min": 78.0,
+      "cost_usd": 382,
+      "priority": "High",
+      "source_row": 227,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0228",
+      "asset_id": "A013",
+      "day": "2026-09-19",
+      "duration_min": 84.0,
+      "cost_usd": 310,
+      "priority": "Routine",
+      "source_row": 228,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0229",
+      "asset_id": "A009",
+      "day": "2026-09-20",
+      "duration_min": 22.0,
+      "cost_usd": 216,
+      "priority": "Routine",
+      "source_row": 229,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0230",
+      "asset_id": "A027",
+      "day": "2026-09-21",
+      "duration_min": 63.0,
+      "cost_usd": 359,
+      "priority": "Routine",
+      "source_row": 230,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0231",
+      "asset_id": "A001",
+      "day": "2026-09-22",
+      "duration_min": 44.0,
+      "cost_usd": 202,
+      "priority": "Routine",
+      "source_row": 231,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0232",
+      "asset_id": "A032",
+      "day": "2026-09-23",
+      "duration_min": 33.0,
+      "cost_usd": 303,
+      "priority": "Routine",
+      "source_row": 232,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0233",
+      "asset_id": "A023",
+      "day": "2026-09-24",
+      "duration_min": 62.0,
+      "cost_usd": 382,
+      "priority": "Routine",
+      "source_row": 233,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0234",
+      "asset_id": "A025",
+      "day": "2026-09-25",
+      "duration_min": 66.0,
+      "cost_usd": 214,
+      "priority": "Routine",
+      "source_row": 234,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0235",
+      "asset_id": "A016",
+      "day": "2026-09-26",
+      "duration_min": 87.0,
+      "cost_usd": 271,
+      "priority": "Routine",
+      "source_row": 235,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0236",
+      "asset_id": "A027",
+      "day": "2026-09-27",
+      "duration_min": 25.0,
+      "cost_usd": 262,
+      "priority": "Routine",
+      "source_row": 236,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0237",
+      "asset_id": "A025",
+      "day": "2026-09-28",
+      "duration_min": 57.0,
+      "cost_usd": 127,
+      "priority": "Routine",
+      "source_row": 237,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0238",
+      "asset_id": "A003",
+      "day": "2026-09-29",
+      "duration_min": 30.0,
+      "cost_usd": 332,
+      "priority": "Routine",
+      "source_row": 238,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0239",
+      "asset_id": "A022",
+      "day": "2026-09-30",
+      "duration_min": 32.0,
+      "cost_usd": 325,
+      "priority": "High",
+      "source_row": 239,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0240",
+      "asset_id": "A030",
+      "day": "2026-09-01",
+      "duration_min": 9.0,
+      "cost_usd": 123,
+      "priority": "Routine",
+      "source_row": 240,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0241",
+      "asset_id": "A010",
+      "day": "2026-09-02",
+      "duration_min": 23.0,
+      "cost_usd": 315,
+      "priority": "Routine",
+      "source_row": 241,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0242",
+      "asset_id": "A017",
+      "day": "2026-09-03",
+      "duration_min": 63.0,
+      "cost_usd": 303,
+      "priority": "Routine",
+      "source_row": 242,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0243",
+      "asset_id": "A022",
+      "day": "2026-09-04",
+      "duration_min": 94.0,
+      "cost_usd": 323,
+      "priority": "Routine",
+      "source_row": 243,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0244",
+      "asset_id": "A021",
+      "day": "2026-09-05",
+      "duration_min": 94.0,
+      "cost_usd": 324,
+      "priority": "Routine",
+      "source_row": 244,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0245",
+      "asset_id": "A003",
+      "day": "2026-09-06",
+      "duration_min": 99.0,
+      "cost_usd": 135,
+      "priority": "Routine",
+      "source_row": 245,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0246",
+      "asset_id": "A019",
+      "day": "2026-09-07",
+      "duration_min": 37.0,
+      "cost_usd": 96,
+      "priority": "Routine",
+      "source_row": 246,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0247",
+      "asset_id": "A007",
+      "day": "2026-09-08",
+      "duration_min": 95.0,
+      "cost_usd": 126,
+      "priority": "Routine",
+      "source_row": 247,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0248",
+      "asset_id": "A020",
+      "day": "2026-09-09",
+      "duration_min": 23.0,
+      "cost_usd": 123,
+      "priority": "Routine",
+      "source_row": 248,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0249",
+      "asset_id": "A004",
+      "day": "2026-09-10",
+      "duration_min": 45.0,
+      "cost_usd": 233,
+      "priority": "Routine",
+      "source_row": 249,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0250",
+      "asset_id": "A010",
+      "day": "2026-09-11",
+      "duration_min": 45.0,
+      "cost_usd": 346,
+      "priority": "Routine",
+      "source_row": 250,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0251",
+      "asset_id": "A012",
+      "day": "2026-09-12",
+      "duration_min": 41.0,
+      "cost_usd": 189,
+      "priority": "High",
+      "source_row": 251,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0252",
+      "asset_id": "A025",
+      "day": "2026-09-13",
+      "duration_min": 87.0,
+      "cost_usd": 173,
+      "priority": "Routine",
+      "source_row": 252,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0253",
+      "asset_id": "A010",
+      "day": "2026-09-14",
+      "duration_min": 43.0,
+      "cost_usd": 311,
+      "priority": "Routine",
+      "source_row": 253,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0254",
+      "asset_id": "A030",
+      "day": "2026-09-15",
+      "duration_min": 52.0,
+      "cost_usd": 104,
+      "priority": "Routine",
+      "source_row": 254,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0255",
+      "asset_id": "A030",
+      "day": "2026-09-16",
+      "duration_min": 44.0,
+      "cost_usd": 329,
+      "priority": "High",
+      "source_row": 255,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0256",
+      "asset_id": "A029",
+      "day": "2026-09-17",
+      "duration_min": 58.0,
+      "cost_usd": 375,
+      "priority": "Routine",
+      "source_row": 256,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0257",
+      "asset_id": "A028",
+      "day": "2026-09-18",
+      "duration_min": 52.0,
+      "cost_usd": 333,
+      "priority": "Routine",
+      "source_row": 257,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0258",
+      "asset_id": "A013",
+      "day": "2026-09-19",
+      "duration_min": 57.0,
+      "cost_usd": 297,
+      "priority": "High",
+      "source_row": 258,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0259",
+      "asset_id": "A025",
+      "day": "2026-09-20",
+      "duration_min": 87.0,
+      "cost_usd": 258,
+      "priority": "Routine",
+      "source_row": 259,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0260",
+      "asset_id": "A019",
+      "day": "2026-09-21",
+      "duration_min": 22.0,
+      "cost_usd": 302,
+      "priority": "Routine",
+      "source_row": 260,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0261",
+      "asset_id": "A004",
+      "day": "2026-09-22",
+      "duration_min": 85.0,
+      "cost_usd": 304,
+      "priority": "Routine",
+      "source_row": 261,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0262",
+      "asset_id": "A019",
+      "day": "2026-09-23",
+      "duration_min": 43.0,
+      "cost_usd": 255,
+      "priority": "High",
+      "source_row": 262,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0263",
+      "asset_id": "A013",
+      "day": "2026-09-24",
+      "duration_min": 99.0,
+      "cost_usd": 228,
+      "priority": "Routine",
+      "source_row": 263,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0264",
+      "asset_id": "A009",
+      "day": "2026-09-25",
+      "duration_min": 88.0,
+      "cost_usd": 99,
+      "priority": "Routine",
+      "source_row": 264,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0265",
+      "asset_id": "A003",
+      "day": "2026-09-26",
+      "duration_min": 53.0,
+      "cost_usd": 300,
+      "priority": "High",
+      "source_row": 265,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0266",
+      "asset_id": "A024",
+      "day": "2026-09-27",
+      "duration_min": 36.0,
+      "cost_usd": 146,
+      "priority": "Routine",
+      "source_row": 266,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0267",
+      "asset_id": "A021",
+      "day": "2026-09-28",
+      "duration_min": 61.0,
+      "cost_usd": 139,
+      "priority": "High",
+      "source_row": 267,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0268",
+      "asset_id": "A035",
+      "day": "2026-09-29",
+      "duration_min": 60.0,
+      "cost_usd": 346,
+      "priority": "Routine",
+      "source_row": 268,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0269",
+      "asset_id": "A018",
+      "day": "2026-09-30",
+      "duration_min": 41.0,
+      "cost_usd": 231,
+      "priority": "Routine",
+      "source_row": 269,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0270",
+      "asset_id": "A031",
+      "day": "2026-09-01",
+      "duration_min": 45.0,
+      "cost_usd": 223,
+      "priority": "Routine",
+      "source_row": 270,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0271",
+      "asset_id": "A030",
+      "day": "2026-09-02",
+      "duration_min": 23.0,
+      "cost_usd": 147,
+      "priority": "Routine",
+      "source_row": 271,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0272",
+      "asset_id": "A015",
+      "day": "2026-09-03",
+      "duration_min": 106.0,
+      "cost_usd": 303,
+      "priority": "Routine",
+      "source_row": 272,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0273",
+      "asset_id": "A036",
+      "day": "2026-09-04",
+      "duration_min": 54.0,
+      "cost_usd": 96,
+      "priority": "Routine",
+      "source_row": 273,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0274",
+      "asset_id": "A001",
+      "day": "2026-09-05",
+      "duration_min": 47.0,
+      "cost_usd": 349,
+      "priority": "High",
+      "source_row": 274,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0275",
+      "asset_id": "A024",
+      "day": "2026-09-06",
+      "duration_min": 106.0,
+      "cost_usd": 234,
+      "priority": "Routine",
+      "source_row": 275,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0276",
+      "asset_id": "A024",
+      "day": "2026-09-07",
+      "duration_min": 21.0,
+      "cost_usd": 169,
+      "priority": "Routine",
+      "source_row": 276,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0277",
+      "asset_id": "A036",
+      "day": "2026-09-08",
+      "duration_min": 55.0,
+      "cost_usd": 188,
+      "priority": "Routine",
+      "source_row": 277,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0278",
+      "asset_id": "A030",
+      "day": "2026-09-09",
+      "duration_min": 58.0,
+      "cost_usd": 309,
+      "priority": "High",
+      "source_row": 278,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0279",
+      "asset_id": "A003",
+      "day": "2026-09-10",
+      "duration_min": 12.0,
+      "cost_usd": 205,
+      "priority": "Routine",
+      "source_row": 279,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0280",
+      "asset_id": "A008",
+      "day": "2026-09-11",
+      "duration_min": 26.0,
+      "cost_usd": 195,
+      "priority": "Routine",
+      "source_row": 280,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0281",
+      "asset_id": "A009",
+      "day": "2026-09-12",
+      "duration_min": 69.0,
+      "cost_usd": 332,
+      "priority": "Routine",
+      "source_row": 281,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0282",
+      "asset_id": "A035",
+      "day": "2026-09-13",
+      "duration_min": 61.0,
+      "cost_usd": 350,
+      "priority": "Routine",
+      "source_row": 282,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0283",
+      "asset_id": "A010",
+      "day": "2026-09-14",
+      "duration_min": 67.0,
+      "cost_usd": 125,
+      "priority": "Routine",
+      "source_row": 283,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0284",
+      "asset_id": "A027",
+      "day": "2026-09-15",
+      "duration_min": 55.0,
+      "cost_usd": 116,
+      "priority": "Routine",
+      "source_row": 284,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0285",
+      "asset_id": "A014",
+      "day": "2026-09-16",
+      "duration_min": 64.0,
+      "cost_usd": 277,
+      "priority": "Routine",
+      "source_row": 285,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0286",
+      "asset_id": "A024",
+      "day": "2026-09-17",
+      "duration_min": 26.0,
+      "cost_usd": 263,
+      "priority": "Routine",
+      "source_row": 286,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0287",
+      "asset_id": "A023",
+      "day": "2026-09-18",
+      "duration_min": 27.0,
+      "cost_usd": 303,
+      "priority": "Routine",
+      "source_row": 287,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0288",
+      "asset_id": "A008",
+      "day": "2026-09-19",
+      "duration_min": 66.0,
+      "cost_usd": 96,
+      "priority": "Routine",
+      "source_row": 288,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0289",
+      "asset_id": "A002",
+      "day": "2026-09-20",
+      "duration_min": 20.0,
+      "cost_usd": 245,
+      "priority": "Routine",
+      "source_row": 289,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0290",
+      "asset_id": "A009",
+      "day": "2026-09-21",
+      "duration_min": 92.0,
+      "cost_usd": 205,
+      "priority": "High",
+      "source_row": 290,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0291",
+      "asset_id": "A036",
+      "day": "2026-09-22",
+      "duration_min": 34.0,
+      "cost_usd": 350,
+      "priority": "High",
+      "source_row": 291,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0292",
+      "asset_id": "A015",
+      "day": "2026-09-23",
+      "duration_min": 56.0,
+      "cost_usd": 150,
+      "priority": "Routine",
+      "source_row": 292,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0293",
+      "asset_id": "A001",
+      "day": "2026-09-24",
+      "duration_min": 55.0,
+      "cost_usd": 174,
+      "priority": "Routine",
+      "source_row": 293,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0294",
+      "asset_id": "A035",
+      "day": "2026-09-25",
+      "duration_min": 40.0,
+      "cost_usd": 139,
+      "priority": "High",
+      "source_row": 294,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0295",
+      "asset_id": "A002",
+      "day": "2026-09-26",
+      "duration_min": 30.0,
+      "cost_usd": 82,
+      "priority": "Routine",
+      "source_row": 295,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0296",
+      "asset_id": "A016",
+      "day": "2026-09-27",
+      "duration_min": 95.0,
+      "cost_usd": 265,
+      "priority": "High",
+      "source_row": 296,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0297",
+      "asset_id": "A017",
+      "day": "2026-09-28",
+      "duration_min": 14.0,
+      "cost_usd": 114,
+      "priority": "Routine",
+      "source_row": 297,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0298",
+      "asset_id": "A034",
+      "day": "2026-09-29",
+      "duration_min": 28.0,
+      "cost_usd": 107,
+      "priority": "Routine",
+      "source_row": 298,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0299",
+      "asset_id": "A024",
+      "day": "2026-09-30",
+      "duration_min": 85.0,
+      "cost_usd": 155,
+      "priority": "Routine",
+      "source_row": 299,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0300",
+      "asset_id": "A015",
+      "day": "2026-09-01",
+      "duration_min": 86.0,
+      "cost_usd": 72,
+      "priority": "Routine",
+      "source_row": 300,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0301",
+      "asset_id": "A034",
+      "day": "2026-09-02",
+      "duration_min": 52.0,
+      "cost_usd": 309,
+      "priority": "Routine",
+      "source_row": 301,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0302",
+      "asset_id": "A002",
+      "day": "2026-09-03",
+      "duration_min": 27.0,
+      "cost_usd": 345,
+      "priority": "Routine",
+      "source_row": 302,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0303",
+      "asset_id": "A028",
+      "day": "2026-09-04",
+      "duration_min": 95.0,
+      "cost_usd": 105,
+      "priority": "Routine",
+      "source_row": 303,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0304",
+      "asset_id": "A029",
+      "day": "2026-09-05",
+      "duration_min": 23.0,
+      "cost_usd": 116,
+      "priority": "Routine",
+      "source_row": 304,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0305",
+      "asset_id": "A010",
+      "day": "2026-09-06",
+      "duration_min": 28.0,
+      "cost_usd": 164,
+      "priority": "Routine",
+      "source_row": 305,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0306",
+      "asset_id": "A036",
+      "day": "2026-09-07",
+      "duration_min": 49.0,
+      "cost_usd": 245,
+      "priority": "Routine",
+      "source_row": 306,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0307",
+      "asset_id": "A034",
+      "day": "2026-09-08",
+      "duration_min": 51.0,
+      "cost_usd": 307,
+      "priority": "Routine",
+      "source_row": 307,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0308",
+      "asset_id": "A028",
+      "day": "2026-09-09",
+      "duration_min": 32.0,
+      "cost_usd": 158,
+      "priority": "Routine",
+      "source_row": 308,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0309",
+      "asset_id": "A036",
+      "day": "2026-09-10",
+      "duration_min": 35.0,
+      "cost_usd": 270,
+      "priority": "Routine",
+      "source_row": 309,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0310",
+      "asset_id": "A015",
+      "day": "2026-09-11",
+      "duration_min": 66.0,
+      "cost_usd": 248,
+      "priority": "Routine",
+      "source_row": 310,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0311",
+      "asset_id": "A026",
+      "day": "2026-09-12",
+      "duration_min": 73.0,
+      "cost_usd": 148,
+      "priority": "Routine",
+      "source_row": 311,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0312",
+      "asset_id": "A021",
+      "day": "2026-09-13",
+      "duration_min": 93.0,
+      "cost_usd": 180,
+      "priority": "Routine",
+      "source_row": 312,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0313",
+      "asset_id": "A010",
+      "day": "2026-09-14",
+      "duration_min": 101.0,
+      "cost_usd": 317,
+      "priority": "High",
+      "source_row": 313,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0314",
+      "asset_id": "A006",
+      "day": "2026-09-15",
+      "duration_min": 31.0,
+      "cost_usd": 321,
+      "priority": "High",
+      "source_row": 314,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0315",
+      "asset_id": "A024",
+      "day": "2026-09-16",
+      "duration_min": 24.0,
+      "cost_usd": 334,
+      "priority": "High",
+      "source_row": 315,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0316",
+      "asset_id": "A036",
+      "day": "2026-09-17",
+      "duration_min": 85.0,
+      "cost_usd": 243,
+      "priority": "Routine",
+      "source_row": 316,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0317",
+      "asset_id": "A027",
+      "day": "2026-09-18",
+      "duration_min": 65.0,
+      "cost_usd": 316,
+      "priority": "Routine",
+      "source_row": 317,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0318",
+      "asset_id": "A004",
+      "day": "2026-09-19",
+      "duration_min": 44.0,
+      "cost_usd": 209,
+      "priority": "Routine",
+      "source_row": 318,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0319",
+      "asset_id": "A033",
+      "day": "2026-09-20",
+      "duration_min": 41.0,
+      "cost_usd": 154,
+      "priority": "Routine",
+      "source_row": 319,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0320",
+      "asset_id": "A015",
+      "day": "2026-09-21",
+      "duration_min": 33.0,
+      "cost_usd": 279,
+      "priority": "Routine",
+      "source_row": 320,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0321",
+      "asset_id": "A024",
+      "day": "2026-09-22",
+      "duration_min": 22.0,
+      "cost_usd": 192,
+      "priority": "Routine",
+      "source_row": 321,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0322",
+      "asset_id": "A028",
+      "day": "2026-09-23",
+      "duration_min": 85.0,
+      "cost_usd": 360,
+      "priority": "High",
+      "source_row": 322,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0323",
+      "asset_id": "A018",
+      "day": "2026-09-24",
+      "duration_min": 23.0,
+      "cost_usd": 192,
+      "priority": "Routine",
+      "source_row": 323,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0324",
+      "asset_id": "A020",
+      "day": "2026-09-25",
+      "duration_min": 51.0,
+      "cost_usd": 229,
+      "priority": "High",
+      "source_row": 324,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0325",
+      "asset_id": "A010",
+      "day": "2026-09-26",
+      "duration_min": 86.0,
+      "cost_usd": 280,
+      "priority": "High",
+      "source_row": 325,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0326",
+      "asset_id": "A002",
+      "day": "2026-09-27",
+      "duration_min": 31.0,
+      "cost_usd": 371,
+      "priority": "High",
+      "source_row": 326,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0327",
+      "asset_id": "A027",
+      "day": "2026-09-28",
+      "duration_min": 66.0,
+      "cost_usd": 224,
+      "priority": "High",
+      "source_row": 327,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0328",
+      "asset_id": "A020",
+      "day": "2026-09-29",
+      "duration_min": 55.0,
+      "cost_usd": 365,
+      "priority": "Routine",
+      "source_row": 328,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0329",
+      "asset_id": "A004",
+      "day": "2026-09-30",
+      "duration_min": 39.0,
+      "cost_usd": 180,
+      "priority": "Routine",
+      "source_row": 329,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0330",
+      "asset_id": "A004",
+      "day": "2026-09-01",
+      "duration_min": 94.0,
+      "cost_usd": 91,
+      "priority": "Routine",
+      "source_row": 330,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0331",
+      "asset_id": "A028",
+      "day": "2026-09-02",
+      "duration_min": 76.0,
+      "cost_usd": 301,
+      "priority": "Routine",
+      "source_row": 331,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0332",
+      "asset_id": "A014",
+      "day": "2026-09-03",
+      "duration_min": 85.0,
+      "cost_usd": 158,
+      "priority": "Routine",
+      "source_row": 332,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0333",
+      "asset_id": "A008",
+      "day": "2026-09-04",
+      "duration_min": 44.0,
+      "cost_usd": 299,
+      "priority": "Routine",
+      "source_row": 333,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0334",
+      "asset_id": "A020",
+      "day": "2026-09-05",
+      "duration_min": 19.0,
+      "cost_usd": 187,
+      "priority": "Routine",
+      "source_row": 334,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0335",
+      "asset_id": "A004",
+      "day": "2026-09-06",
+      "duration_min": 20.0,
+      "cost_usd": 204,
+      "priority": "Routine",
+      "source_row": 335,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0336",
+      "asset_id": "A014",
+      "day": "2026-09-07",
+      "duration_min": 25.0,
+      "cost_usd": 180,
+      "priority": "Routine",
+      "source_row": 336,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0337",
+      "asset_id": "A008",
+      "day": "2026-09-08",
+      "duration_min": 14.0,
+      "cost_usd": 329,
+      "priority": "Routine",
+      "source_row": 337,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0338",
+      "asset_id": "A012",
+      "day": "2026-09-09",
+      "duration_min": 36.0,
+      "cost_usd": 294,
+      "priority": "Routine",
+      "source_row": 338,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0339",
+      "asset_id": "A015",
+      "day": "2026-09-10",
+      "duration_min": 72.0,
+      "cost_usd": 336,
+      "priority": "Routine",
+      "source_row": 339,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0340",
+      "asset_id": "A023",
+      "day": "2026-09-11",
+      "duration_min": 23.0,
+      "cost_usd": 278,
+      "priority": "Routine",
+      "source_row": 340,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0341",
+      "asset_id": "A003",
+      "day": "2026-09-12",
+      "duration_min": 75.0,
+      "cost_usd": 109,
+      "priority": "Routine",
+      "source_row": 341,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0342",
+      "asset_id": "A005",
+      "day": "2026-09-13",
+      "duration_min": 48.0,
+      "cost_usd": 344,
+      "priority": "Routine",
+      "source_row": 342,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0343",
+      "asset_id": "A026",
+      "day": "2026-09-14",
+      "duration_min": 95.0,
+      "cost_usd": 288,
+      "priority": "Routine",
+      "source_row": 343,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0344",
+      "asset_id": "A026",
+      "day": "2026-09-15",
+      "duration_min": 22.0,
+      "cost_usd": 266,
+      "priority": "High",
+      "source_row": 344,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0345",
+      "asset_id": "A030",
+      "day": "2026-09-16",
+      "duration_min": 54.0,
+      "cost_usd": 95,
+      "priority": "Routine",
+      "source_row": 345,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0346",
+      "asset_id": "A007",
+      "day": "2026-09-17",
+      "duration_min": 45.0,
+      "cost_usd": 298,
+      "priority": "Routine",
+      "source_row": 346,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0347",
+      "asset_id": "A034",
+      "day": "2026-09-18",
+      "duration_min": 30.0,
+      "cost_usd": 302,
+      "priority": "Routine",
+      "source_row": 347,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0348",
+      "asset_id": "A022",
+      "day": "2026-09-19",
+      "duration_min": 36.0,
+      "cost_usd": 220,
+      "priority": "Routine",
+      "source_row": 348,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0349",
+      "asset_id": "A005",
+      "day": "2026-09-20",
+      "duration_min": 79.0,
+      "cost_usd": 133,
+      "priority": "Routine",
+      "source_row": 349,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0350",
+      "asset_id": "A013",
+      "day": "2026-09-21",
+      "duration_min": 64.0,
+      "cost_usd": 279,
+      "priority": "Routine",
+      "source_row": 350,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0351",
+      "asset_id": "A010",
+      "day": "2026-09-22",
+      "duration_min": 38.0,
+      "cost_usd": 102,
+      "priority": "High",
+      "source_row": 351,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0352",
+      "asset_id": "A013",
+      "day": "2026-09-23",
+      "duration_min": 36.0,
+      "cost_usd": 153,
+      "priority": "Routine",
+      "source_row": 352,
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "event_id": "E0353",
+      "asset_id": "A005",
+      "day": "2026-09-24",
+      "duration_min": 42.0,
+      "cost_usd": 352,
+      "priority": "Routine",
+      "source_row": 353,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0354",
+      "asset_id": "A029",
+      "day": "2026-09-25",
+      "duration_min": 95.0,
+      "cost_usd": 339,
+      "priority": "Routine",
+      "source_row": 354,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0355",
+      "asset_id": "A021",
+      "day": "2026-09-26",
+      "duration_min": 94.0,
+      "cost_usd": 236,
+      "priority": "High",
+      "source_row": 355,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0356",
+      "asset_id": "A005",
+      "day": "2026-09-27",
+      "duration_min": 80.0,
+      "cost_usd": 326,
+      "priority": "Routine",
+      "source_row": 356,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0357",
+      "asset_id": "A018",
+      "day": "2026-09-28",
+      "duration_min": 83.0,
+      "cost_usd": 78,
+      "priority": "Routine",
+      "source_row": 357,
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "event_id": "E0358",
+      "asset_id": "A005",
+      "day": "2026-09-29",
+      "duration_min": 53.0,
+      "cost_usd": 311,
+      "priority": "Routine",
+      "source_row": 358,
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "event_id": "E0359",
+      "asset_id": "A004",
+      "day": "2026-09-30",
+      "duration_min": 67.0,
+      "cost_usd": 246,
+      "priority": "High",
+      "source_row": 359,
+      "region": "Central",
+      "asset_type": "Feeder"
+    }
+  ],
+  "quarantine": [
+    {
+      "event_id": "E0000",
+      "asset_id": "A008",
+      "day": "2026-09-01",
+      "duration_min": 11.0,
+      "cost_usd": 2500,
+      "priority": "Routine",
+      "source_row": 360,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0001",
+      "asset_id": "A009",
+      "day": "2026-09-02",
+      "duration_min": 27.0,
+      "cost_usd": 2511,
+      "priority": "High",
+      "source_row": 361,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0002",
+      "asset_id": "A028",
+      "day": "2026-09-03",
+      "duration_min": 24.0,
+      "cost_usd": 2522,
+      "priority": "High",
+      "source_row": 362,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0003",
+      "asset_id": "A015",
+      "day": "2026-09-04",
+      "duration_min": 72.0,
+      "cost_usd": 2533,
+      "priority": "Routine",
+      "source_row": 363,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0004",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": 67.0,
+      "cost_usd": 2544,
+      "priority": "Routine",
+      "source_row": 364,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0005",
+      "asset_id": "A018",
+      "day": "2026-09-06",
+      "duration_min": 20.0,
+      "cost_usd": 2555,
+      "priority": "Routine",
+      "source_row": 365,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0006",
+      "asset_id": "A022",
+      "day": "2026-09-07",
+      "duration_min": 43.0,
+      "cost_usd": 2566,
+      "priority": "High",
+      "source_row": 366,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0007",
+      "asset_id": "A022",
+      "day": "2026-09-08",
+      "duration_min": 27.0,
+      "cost_usd": 2577,
+      "priority": "Routine",
+      "source_row": 367,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0008",
+      "asset_id": "A023",
+      "day": "2026-09-09",
+      "duration_min": 64.0,
+      "cost_usd": 2588,
+      "priority": "Routine",
+      "source_row": 368,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0009",
+      "asset_id": "A030",
+      "day": "2026-09-10",
+      "duration_min": 76.0,
+      "cost_usd": 2599,
+      "priority": "Routine",
+      "source_row": 369,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0010",
+      "asset_id": "A025",
+      "day": "2026-09-11",
+      "duration_min": 24.0,
+      "cost_usd": 2610,
+      "priority": "Routine",
+      "source_row": 370,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0011",
+      "asset_id": "A024",
+      "day": "2026-09-12",
+      "duration_min": 93.0,
+      "cost_usd": 2621,
+      "priority": "Routine",
+      "source_row": 371,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0012",
+      "asset_id": "A003",
+      "day": "2026-09-13",
+      "duration_min": 92.0,
+      "cost_usd": 2632,
+      "priority": "Routine",
+      "source_row": 372,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0013",
+      "asset_id": "A006",
+      "day": "2026-09-14",
+      "duration_min": 43.0,
+      "cost_usd": 2643,
+      "priority": "Routine",
+      "source_row": 373,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0014",
+      "asset_id": "A030",
+      "day": "2026-09-15",
+      "duration_min": 101.0,
+      "cost_usd": 2654,
+      "priority": "High",
+      "source_row": 374,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0015",
+      "asset_id": "A023",
+      "day": "2026-09-16",
+      "duration_min": 34.0,
+      "cost_usd": 2665,
+      "priority": "Routine",
+      "source_row": 375,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0016",
+      "asset_id": "A005",
+      "day": "2026-09-17",
+      "duration_min": 91.0,
+      "cost_usd": 2676,
+      "priority": "Routine",
+      "source_row": 376,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0017",
+      "asset_id": "A016",
+      "day": "2026-09-18",
+      "duration_min": 40.0,
+      "cost_usd": 2687,
+      "priority": "Routine",
+      "source_row": 377,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0018",
+      "asset_id": "A036",
+      "day": "2026-09-19",
+      "duration_min": 36.0,
+      "cost_usd": 2698,
+      "priority": "Routine",
+      "source_row": 378,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0019",
+      "asset_id": "A004",
+      "day": "2026-09-20",
+      "duration_min": 43.0,
+      "cost_usd": 2709,
+      "priority": "Routine",
+      "source_row": 379,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0020",
+      "asset_id": "A026",
+      "day": "2026-09-21",
+      "duration_min": 54.0,
+      "cost_usd": 2720,
+      "priority": "High",
+      "source_row": 380,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0021",
+      "asset_id": "A021",
+      "day": "2026-09-22",
+      "duration_min": 35.0,
+      "cost_usd": 2731,
+      "priority": "Routine",
+      "source_row": 381,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0022",
+      "asset_id": "A030",
+      "day": "2026-09-23",
+      "duration_min": 32.0,
+      "cost_usd": 2742,
+      "priority": "High",
+      "source_row": 382,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0023",
+      "asset_id": "A036",
+      "day": "2026-09-24",
+      "duration_min": 88.0,
+      "cost_usd": 2753,
+      "priority": "Routine",
+      "source_row": 383,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0024",
+      "asset_id": "A028",
+      "day": "2026-09-25",
+      "duration_min": 82.0,
+      "cost_usd": 2764,
+      "priority": "Routine",
+      "source_row": 384,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0025",
+      "asset_id": "A009",
+      "day": "2026-09-26",
+      "duration_min": 79.0,
+      "cost_usd": 2775,
+      "priority": "High",
+      "source_row": 385,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0026",
+      "asset_id": "A004",
+      "day": "2026-09-27",
+      "duration_min": 34.0,
+      "cost_usd": 2786,
+      "priority": "Routine",
+      "source_row": 386,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0027",
+      "asset_id": "A028",
+      "day": "2026-09-28",
+      "duration_min": 84.0,
+      "cost_usd": 2797,
+      "priority": "Routine",
+      "source_row": 387,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0028",
+      "asset_id": "A030",
+      "day": "2026-09-29",
+      "duration_min": 81.0,
+      "cost_usd": 2808,
+      "priority": "Routine",
+      "source_row": 388,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "E0029",
+      "asset_id": "A001",
+      "day": "2026-09-30",
+      "duration_min": 107.0,
+      "cost_usd": 2819,
+      "priority": "Routine",
+      "source_row": 389,
+      "reason": "duplicate event id"
+    },
+    {
+      "event_id": "ORPH0",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High",
+      "source_row": 390,
+      "reason": "unmatched asset"
+    },
+    {
+      "event_id": "ORPH1",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High",
+      "source_row": 391,
+      "reason": "unmatched asset"
+    },
+    {
+      "event_id": "ORPH2",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High",
+      "source_row": 392,
+      "reason": "unmatched asset"
+    },
+    {
+      "event_id": "ORPH3",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High",
+      "source_row": 393,
+      "reason": "unmatched asset"
+    },
+    {
+      "event_id": "ORPH4",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High",
+      "source_row": 394,
+      "reason": "unmatched asset"
+    },
+    {
+      "event_id": "ORPH5",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High",
+      "source_row": 395,
+      "reason": "unmatched asset"
+    },
+    {
+      "event_id": "ORPH6",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High",
+      "source_row": 396,
+      "reason": "unmatched asset"
+    },
+    {
+      "event_id": "ORPH7",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High",
+      "source_row": 397,
+      "reason": "unmatched asset"
+    },
+    {
+      "event_id": "MISS0",
+      "asset_id": "A008",
+      "day": "2026-09-01",
+      "duration_min": null,
+      "cost_usd": 190,
+      "priority": "Routine",
+      "source_row": 398,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "MISS1",
+      "asset_id": "A009",
+      "day": "2026-09-02",
+      "duration_min": null,
+      "cost_usd": 354,
+      "priority": "High",
+      "source_row": 399,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "MISS2",
+      "asset_id": "A028",
+      "day": "2026-09-03",
+      "duration_min": null,
+      "cost_usd": 115,
+      "priority": "High",
+      "source_row": 400,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "MISS3",
+      "asset_id": "A015",
+      "day": "2026-09-04",
+      "duration_min": null,
+      "cost_usd": 63,
+      "priority": "Routine",
+      "source_row": 401,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "MISS4",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": null,
+      "cost_usd": 187,
+      "priority": "Routine",
+      "source_row": 402,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "MISS5",
+      "asset_id": "A018",
+      "day": "2026-09-06",
+      "duration_min": null,
+      "cost_usd": 181,
+      "priority": "Routine",
+      "source_row": 403,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "MISS6",
+      "asset_id": "A022",
+      "day": "2026-09-07",
+      "duration_min": null,
+      "cost_usd": 129,
+      "priority": "High",
+      "source_row": 404,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "NEG0",
+      "asset_id": "A008",
+      "day": "2026-09-01",
+      "duration_min": 11.0,
+      "cost_usd": -100,
+      "priority": "Routine",
+      "source_row": 405,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "NEG1",
+      "asset_id": "A009",
+      "day": "2026-09-02",
+      "duration_min": 27.0,
+      "cost_usd": -100,
+      "priority": "High",
+      "source_row": 406,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "NEG2",
+      "asset_id": "A028",
+      "day": "2026-09-03",
+      "duration_min": 24.0,
+      "cost_usd": -100,
+      "priority": "High",
+      "source_row": 407,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "NEG3",
+      "asset_id": "A015",
+      "day": "2026-09-04",
+      "duration_min": 72.0,
+      "cost_usd": -100,
+      "priority": "Routine",
+      "source_row": 408,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "NEG4",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": 67.0,
+      "cost_usd": -100,
+      "priority": "Routine",
+      "source_row": 409,
+      "reason": "missing or negative measure"
+    },
+    {
+      "event_id": "DATE0",
+      "asset_id": "A008",
+      "day": "not-a-date",
+      "duration_min": 11.0,
+      "cost_usd": 190,
+      "priority": "Routine",
+      "source_row": 410,
+      "reason": "invalid date"
+    },
+    {
+      "event_id": "DATE1",
+      "asset_id": "A009",
+      "day": "not-a-date",
+      "duration_min": 27.0,
+      "cost_usd": 354,
+      "priority": "High",
+      "source_row": 411,
+      "reason": "invalid date"
+    },
+    {
+      "event_id": "DATE2",
+      "asset_id": "A028",
+      "day": "not-a-date",
+      "duration_min": 24.0,
+      "cost_usd": 115,
+      "priority": "High",
+      "source_row": 412,
+      "reason": "invalid date"
+    }
+  ],
+  "source": [
+    {
+      "event_id": "E0000",
+      "asset_id": "A008",
+      "day": "2026-09-01",
+      "duration_min": 11.0,
+      "cost_usd": 190,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0001",
+      "asset_id": "A009",
+      "day": "2026-09-02",
+      "duration_min": 27.0,
+      "cost_usd": 354,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0002",
+      "asset_id": "A028",
+      "day": "2026-09-03",
+      "duration_min": 24.0,
+      "cost_usd": 115,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0003",
+      "asset_id": "A015",
+      "day": "2026-09-04",
+      "duration_min": 72.0,
+      "cost_usd": 63,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0004",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": 67.0,
+      "cost_usd": 187,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0005",
+      "asset_id": "A018",
+      "day": "2026-09-06",
+      "duration_min": 20.0,
+      "cost_usd": 181,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0006",
+      "asset_id": "A022",
+      "day": "2026-09-07",
+      "duration_min": 43.0,
+      "cost_usd": 129,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0007",
+      "asset_id": "A022",
+      "day": "2026-09-08",
+      "duration_min": 27.0,
+      "cost_usd": 122,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0008",
+      "asset_id": "A023",
+      "day": "2026-09-09",
+      "duration_min": 64.0,
+      "cost_usd": 235,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0009",
+      "asset_id": "A030",
+      "day": "2026-09-10",
+      "duration_min": 76.0,
+      "cost_usd": 113,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0010",
+      "asset_id": "A025",
+      "day": "2026-09-11",
+      "duration_min": 24.0,
+      "cost_usd": 357,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0011",
+      "asset_id": "A024",
+      "day": "2026-09-12",
+      "duration_min": 93.0,
+      "cost_usd": 198,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0012",
+      "asset_id": "A003",
+      "day": "2026-09-13",
+      "duration_min": 92.0,
+      "cost_usd": 166,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0013",
+      "asset_id": "A006",
+      "day": "2026-09-14",
+      "duration_min": 43.0,
+      "cost_usd": 126,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0014",
+      "asset_id": "A030",
+      "day": "2026-09-15",
+      "duration_min": 101.0,
+      "cost_usd": 286,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0015",
+      "asset_id": "A023",
+      "day": "2026-09-16",
+      "duration_min": 34.0,
+      "cost_usd": 186,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0016",
+      "asset_id": "A005",
+      "day": "2026-09-17",
+      "duration_min": 91.0,
+      "cost_usd": 162,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0017",
+      "asset_id": "A016",
+      "day": "2026-09-18",
+      "duration_min": 40.0,
+      "cost_usd": 336,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0018",
+      "asset_id": "A036",
+      "day": "2026-09-19",
+      "duration_min": 36.0,
+      "cost_usd": 216,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0019",
+      "asset_id": "A004",
+      "day": "2026-09-20",
+      "duration_min": 43.0,
+      "cost_usd": 91,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0020",
+      "asset_id": "A026",
+      "day": "2026-09-21",
+      "duration_min": 54.0,
+      "cost_usd": 133,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0021",
+      "asset_id": "A021",
+      "day": "2026-09-22",
+      "duration_min": 35.0,
+      "cost_usd": 305,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0022",
+      "asset_id": "A030",
+      "day": "2026-09-23",
+      "duration_min": 32.0,
+      "cost_usd": 210,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0023",
+      "asset_id": "A036",
+      "day": "2026-09-24",
+      "duration_min": 88.0,
+      "cost_usd": 234,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0024",
+      "asset_id": "A028",
+      "day": "2026-09-25",
+      "duration_min": 82.0,
+      "cost_usd": 254,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0025",
+      "asset_id": "A009",
+      "day": "2026-09-26",
+      "duration_min": 79.0,
+      "cost_usd": 327,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0026",
+      "asset_id": "A004",
+      "day": "2026-09-27",
+      "duration_min": 34.0,
+      "cost_usd": 178,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0027",
+      "asset_id": "A028",
+      "day": "2026-09-28",
+      "duration_min": 84.0,
+      "cost_usd": 82,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0028",
+      "asset_id": "A030",
+      "day": "2026-09-29",
+      "duration_min": 81.0,
+      "cost_usd": 203,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0029",
+      "asset_id": "A001",
+      "day": "2026-09-30",
+      "duration_min": 107.0,
+      "cost_usd": 158,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0030",
+      "asset_id": "A035",
+      "day": "2026-09-01",
+      "duration_min": 42.0,
+      "cost_usd": 224,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0031",
+      "asset_id": "A028",
+      "day": "2026-09-02",
+      "duration_min": 34.0,
+      "cost_usd": 307,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0032",
+      "asset_id": "A017",
+      "day": "2026-09-03",
+      "duration_min": 84.0,
+      "cost_usd": 191,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0033",
+      "asset_id": "A007",
+      "day": "2026-09-04",
+      "duration_min": 88.0,
+      "cost_usd": 202,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0034",
+      "asset_id": "A033",
+      "day": "2026-09-05",
+      "duration_min": 91.0,
+      "cost_usd": 176,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0035",
+      "asset_id": "A011",
+      "day": "2026-09-06",
+      "duration_min": 89.0,
+      "cost_usd": 371,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0036",
+      "asset_id": "A021",
+      "day": "2026-09-07",
+      "duration_min": 70.0,
+      "cost_usd": 59,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0037",
+      "asset_id": "A024",
+      "day": "2026-09-08",
+      "duration_min": 53.0,
+      "cost_usd": 197,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0038",
+      "asset_id": "A006",
+      "day": "2026-09-09",
+      "duration_min": 30.0,
+      "cost_usd": 348,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0039",
+      "asset_id": "A035",
+      "day": "2026-09-10",
+      "duration_min": 24.0,
+      "cost_usd": 115,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0040",
+      "asset_id": "A036",
+      "day": "2026-09-11",
+      "duration_min": 35.0,
+      "cost_usd": 210,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0041",
+      "asset_id": "A028",
+      "day": "2026-09-12",
+      "duration_min": 47.0,
+      "cost_usd": 376,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0042",
+      "asset_id": "A013",
+      "day": "2026-09-13",
+      "duration_min": 47.0,
+      "cost_usd": 254,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0043",
+      "asset_id": "A024",
+      "day": "2026-09-14",
+      "duration_min": 70.0,
+      "cost_usd": 339,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0044",
+      "asset_id": "A016",
+      "day": "2026-09-15",
+      "duration_min": 48.0,
+      "cost_usd": 132,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0045",
+      "asset_id": "A036",
+      "day": "2026-09-16",
+      "duration_min": 37.0,
+      "cost_usd": 162,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0046",
+      "asset_id": "A004",
+      "day": "2026-09-17",
+      "duration_min": 43.0,
+      "cost_usd": 109,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0047",
+      "asset_id": "A022",
+      "day": "2026-09-18",
+      "duration_min": 29.0,
+      "cost_usd": 363,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0048",
+      "asset_id": "A032",
+      "day": "2026-09-19",
+      "duration_min": 35.0,
+      "cost_usd": 326,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0049",
+      "asset_id": "A031",
+      "day": "2026-09-20",
+      "duration_min": 45.0,
+      "cost_usd": 317,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0050",
+      "asset_id": "A013",
+      "day": "2026-09-21",
+      "duration_min": 32.0,
+      "cost_usd": 149,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0051",
+      "asset_id": "A023",
+      "day": "2026-09-22",
+      "duration_min": 62.0,
+      "cost_usd": 260,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0052",
+      "asset_id": "A004",
+      "day": "2026-09-23",
+      "duration_min": 100.0,
+      "cost_usd": 125,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0053",
+      "asset_id": "A022",
+      "day": "2026-09-24",
+      "duration_min": 33.0,
+      "cost_usd": 227,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0054",
+      "asset_id": "A035",
+      "day": "2026-09-25",
+      "duration_min": 65.0,
+      "cost_usd": 121,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0055",
+      "asset_id": "A018",
+      "day": "2026-09-26",
+      "duration_min": 73.0,
+      "cost_usd": 202,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0056",
+      "asset_id": "A005",
+      "day": "2026-09-27",
+      "duration_min": 76.0,
+      "cost_usd": 381,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0057",
+      "asset_id": "A035",
+      "day": "2026-09-28",
+      "duration_min": 9.0,
+      "cost_usd": 97,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0058",
+      "asset_id": "A016",
+      "day": "2026-09-29",
+      "duration_min": 35.0,
+      "cost_usd": 283,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0059",
+      "asset_id": "A014",
+      "day": "2026-09-30",
+      "duration_min": 71.0,
+      "cost_usd": 130,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0060",
+      "asset_id": "A001",
+      "day": "2026-09-01",
+      "duration_min": 57.0,
+      "cost_usd": 185,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0061",
+      "asset_id": "A030",
+      "day": "2026-09-02",
+      "duration_min": 50.0,
+      "cost_usd": 291,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0062",
+      "asset_id": "A036",
+      "day": "2026-09-03",
+      "duration_min": 104.0,
+      "cost_usd": 349,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0063",
+      "asset_id": "A019",
+      "day": "2026-09-04",
+      "duration_min": 35.0,
+      "cost_usd": 79,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0064",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": 21.0,
+      "cost_usd": 235,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0065",
+      "asset_id": "A031",
+      "day": "2026-09-06",
+      "duration_min": 84.0,
+      "cost_usd": 371,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0066",
+      "asset_id": "A033",
+      "day": "2026-09-07",
+      "duration_min": 18.0,
+      "cost_usd": 145,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0067",
+      "asset_id": "A005",
+      "day": "2026-09-08",
+      "duration_min": 100.0,
+      "cost_usd": 195,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0068",
+      "asset_id": "A016",
+      "day": "2026-09-09",
+      "duration_min": 94.0,
+      "cost_usd": 120,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0069",
+      "asset_id": "A027",
+      "day": "2026-09-10",
+      "duration_min": 92.0,
+      "cost_usd": 348,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0070",
+      "asset_id": "A021",
+      "day": "2026-09-11",
+      "duration_min": 47.0,
+      "cost_usd": 179,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0071",
+      "asset_id": "A021",
+      "day": "2026-09-12",
+      "duration_min": 50.0,
+      "cost_usd": 235,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0072",
+      "asset_id": "A020",
+      "day": "2026-09-13",
+      "duration_min": 66.0,
+      "cost_usd": 211,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0073",
+      "asset_id": "A005",
+      "day": "2026-09-14",
+      "duration_min": 15.0,
+      "cost_usd": 309,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0074",
+      "asset_id": "A007",
+      "day": "2026-09-15",
+      "duration_min": 29.0,
+      "cost_usd": 375,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0075",
+      "asset_id": "A017",
+      "day": "2026-09-16",
+      "duration_min": 24.0,
+      "cost_usd": 228,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0076",
+      "asset_id": "A016",
+      "day": "2026-09-17",
+      "duration_min": 61.0,
+      "cost_usd": 220,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0077",
+      "asset_id": "A035",
+      "day": "2026-09-18",
+      "duration_min": 58.0,
+      "cost_usd": 370,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0078",
+      "asset_id": "A036",
+      "day": "2026-09-19",
+      "duration_min": 46.0,
+      "cost_usd": 103,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0079",
+      "asset_id": "A009",
+      "day": "2026-09-20",
+      "duration_min": 47.0,
+      "cost_usd": 134,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0080",
+      "asset_id": "A036",
+      "day": "2026-09-21",
+      "duration_min": 39.0,
+      "cost_usd": 239,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0081",
+      "asset_id": "A014",
+      "day": "2026-09-22",
+      "duration_min": 51.0,
+      "cost_usd": 154,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0082",
+      "asset_id": "A017",
+      "day": "2026-09-23",
+      "duration_min": 78.0,
+      "cost_usd": 325,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0083",
+      "asset_id": "A004",
+      "day": "2026-09-24",
+      "duration_min": 31.0,
+      "cost_usd": 316,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0084",
+      "asset_id": "A003",
+      "day": "2026-09-25",
+      "duration_min": 8.0,
+      "cost_usd": 220,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0085",
+      "asset_id": "A017",
+      "day": "2026-09-26",
+      "duration_min": 34.0,
+      "cost_usd": 301,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0086",
+      "asset_id": "A028",
+      "day": "2026-09-27",
+      "duration_min": 91.0,
+      "cost_usd": 104,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0087",
+      "asset_id": "A010",
+      "day": "2026-09-28",
+      "duration_min": 77.0,
+      "cost_usd": 68,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0088",
+      "asset_id": "A036",
+      "day": "2026-09-29",
+      "duration_min": 32.0,
+      "cost_usd": 295,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0089",
+      "asset_id": "A020",
+      "day": "2026-09-30",
+      "duration_min": 66.0,
+      "cost_usd": 120,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0090",
+      "asset_id": "A014",
+      "day": "2026-09-01",
+      "duration_min": 95.0,
+      "cost_usd": 177,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0091",
+      "asset_id": "A023",
+      "day": "2026-09-02",
+      "duration_min": 85.0,
+      "cost_usd": 283,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0092",
+      "asset_id": "A010",
+      "day": "2026-09-03",
+      "duration_min": 50.0,
+      "cost_usd": 183,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0093",
+      "asset_id": "A012",
+      "day": "2026-09-04",
+      "duration_min": 60.0,
+      "cost_usd": 62,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0094",
+      "asset_id": "A022",
+      "day": "2026-09-05",
+      "duration_min": 66.0,
+      "cost_usd": 202,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0095",
+      "asset_id": "A007",
+      "day": "2026-09-06",
+      "duration_min": 68.0,
+      "cost_usd": 119,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0096",
+      "asset_id": "A015",
+      "day": "2026-09-07",
+      "duration_min": 33.0,
+      "cost_usd": 285,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0097",
+      "asset_id": "A015",
+      "day": "2026-09-08",
+      "duration_min": 42.0,
+      "cost_usd": 87,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0098",
+      "asset_id": "A026",
+      "day": "2026-09-09",
+      "duration_min": 62.0,
+      "cost_usd": 242,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0099",
+      "asset_id": "A018",
+      "day": "2026-09-10",
+      "duration_min": 52.0,
+      "cost_usd": 310,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0100",
+      "asset_id": "A035",
+      "day": "2026-09-11",
+      "duration_min": 56.0,
+      "cost_usd": 89,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0101",
+      "asset_id": "A017",
+      "day": "2026-09-12",
+      "duration_min": 42.0,
+      "cost_usd": 397,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0102",
+      "asset_id": "A017",
+      "day": "2026-09-13",
+      "duration_min": 12.0,
+      "cost_usd": 105,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0103",
+      "asset_id": "A023",
+      "day": "2026-09-14",
+      "duration_min": 54.0,
+      "cost_usd": 298,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0104",
+      "asset_id": "A033",
+      "day": "2026-09-15",
+      "duration_min": 34.0,
+      "cost_usd": 297,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0105",
+      "asset_id": "A013",
+      "day": "2026-09-16",
+      "duration_min": 40.0,
+      "cost_usd": 72,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0106",
+      "asset_id": "A001",
+      "day": "2026-09-17",
+      "duration_min": 80.0,
+      "cost_usd": 350,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0107",
+      "asset_id": "A013",
+      "day": "2026-09-18",
+      "duration_min": 66.0,
+      "cost_usd": 320,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0108",
+      "asset_id": "A022",
+      "day": "2026-09-19",
+      "duration_min": 87.0,
+      "cost_usd": 210,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0109",
+      "asset_id": "A008",
+      "day": "2026-09-20",
+      "duration_min": 52.0,
+      "cost_usd": 334,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0110",
+      "asset_id": "A027",
+      "day": "2026-09-21",
+      "duration_min": 61.0,
+      "cost_usd": 306,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0111",
+      "asset_id": "A036",
+      "day": "2026-09-22",
+      "duration_min": 24.0,
+      "cost_usd": 148,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0112",
+      "asset_id": "A025",
+      "day": "2026-09-23",
+      "duration_min": 100.0,
+      "cost_usd": 164,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0113",
+      "asset_id": "A020",
+      "day": "2026-09-24",
+      "duration_min": 71.0,
+      "cost_usd": 380,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0114",
+      "asset_id": "A020",
+      "day": "2026-09-25",
+      "duration_min": 44.0,
+      "cost_usd": 157,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0115",
+      "asset_id": "A021",
+      "day": "2026-09-26",
+      "duration_min": 73.0,
+      "cost_usd": 301,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0116",
+      "asset_id": "A014",
+      "day": "2026-09-27",
+      "duration_min": 85.0,
+      "cost_usd": 342,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0117",
+      "asset_id": "A011",
+      "day": "2026-09-28",
+      "duration_min": 92.0,
+      "cost_usd": 93,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0118",
+      "asset_id": "A022",
+      "day": "2026-09-29",
+      "duration_min": 25.0,
+      "cost_usd": 195,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0119",
+      "asset_id": "A015",
+      "day": "2026-09-30",
+      "duration_min": 45.0,
+      "cost_usd": 175,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0120",
+      "asset_id": "A016",
+      "day": "2026-09-01",
+      "duration_min": 68.0,
+      "cost_usd": 87,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0121",
+      "asset_id": "A013",
+      "day": "2026-09-02",
+      "duration_min": 63.0,
+      "cost_usd": 328,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0122",
+      "asset_id": "A010",
+      "day": "2026-09-03",
+      "duration_min": 103.0,
+      "cost_usd": 102,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0123",
+      "asset_id": "A007",
+      "day": "2026-09-04",
+      "duration_min": 62.0,
+      "cost_usd": 162,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0124",
+      "asset_id": "A034",
+      "day": "2026-09-05",
+      "duration_min": 73.0,
+      "cost_usd": 100,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0125",
+      "asset_id": "A008",
+      "day": "2026-09-06",
+      "duration_min": 78.0,
+      "cost_usd": 168,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0126",
+      "asset_id": "A034",
+      "day": "2026-09-07",
+      "duration_min": 79.0,
+      "cost_usd": 212,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0127",
+      "asset_id": "A029",
+      "day": "2026-09-08",
+      "duration_min": 92.0,
+      "cost_usd": 333,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0128",
+      "asset_id": "A036",
+      "day": "2026-09-09",
+      "duration_min": 77.0,
+      "cost_usd": 181,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0129",
+      "asset_id": "A031",
+      "day": "2026-09-10",
+      "duration_min": 65.0,
+      "cost_usd": 182,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0130",
+      "asset_id": "A018",
+      "day": "2026-09-11",
+      "duration_min": 80.0,
+      "cost_usd": 323,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0131",
+      "asset_id": "A018",
+      "day": "2026-09-12",
+      "duration_min": 76.0,
+      "cost_usd": 139,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0132",
+      "asset_id": "A016",
+      "day": "2026-09-13",
+      "duration_min": 42.0,
+      "cost_usd": 221,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0133",
+      "asset_id": "A035",
+      "day": "2026-09-14",
+      "duration_min": 24.0,
+      "cost_usd": 145,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0134",
+      "asset_id": "A025",
+      "day": "2026-09-15",
+      "duration_min": 39.0,
+      "cost_usd": 209,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0135",
+      "asset_id": "A027",
+      "day": "2026-09-16",
+      "duration_min": 50.0,
+      "cost_usd": 327,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0136",
+      "asset_id": "A004",
+      "day": "2026-09-17",
+      "duration_min": 40.0,
+      "cost_usd": 290,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0137",
+      "asset_id": "A002",
+      "day": "2026-09-18",
+      "duration_min": 93.0,
+      "cost_usd": 294,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0138",
+      "asset_id": "A023",
+      "day": "2026-09-19",
+      "duration_min": 46.0,
+      "cost_usd": 249,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0139",
+      "asset_id": "A027",
+      "day": "2026-09-20",
+      "duration_min": 82.0,
+      "cost_usd": 354,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0140",
+      "asset_id": "A015",
+      "day": "2026-09-21",
+      "duration_min": 82.0,
+      "cost_usd": 212,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0141",
+      "asset_id": "A032",
+      "day": "2026-09-22",
+      "duration_min": 11.0,
+      "cost_usd": 249,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0142",
+      "asset_id": "A026",
+      "day": "2026-09-23",
+      "duration_min": 35.0,
+      "cost_usd": 314,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0143",
+      "asset_id": "A035",
+      "day": "2026-09-24",
+      "duration_min": 23.0,
+      "cost_usd": 301,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0144",
+      "asset_id": "A002",
+      "day": "2026-09-25",
+      "duration_min": 18.0,
+      "cost_usd": 269,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0145",
+      "asset_id": "A030",
+      "day": "2026-09-26",
+      "duration_min": 37.0,
+      "cost_usd": 100,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0146",
+      "asset_id": "A021",
+      "day": "2026-09-27",
+      "duration_min": 47.0,
+      "cost_usd": 332,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0147",
+      "asset_id": "A025",
+      "day": "2026-09-28",
+      "duration_min": 43.0,
+      "cost_usd": 265,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0148",
+      "asset_id": "A006",
+      "day": "2026-09-29",
+      "duration_min": 74.0,
+      "cost_usd": 84,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0149",
+      "asset_id": "A004",
+      "day": "2026-09-30",
+      "duration_min": 64.0,
+      "cost_usd": 214,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0150",
+      "asset_id": "A003",
+      "day": "2026-09-01",
+      "duration_min": 11.0,
+      "cost_usd": 176,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0151",
+      "asset_id": "A002",
+      "day": "2026-09-02",
+      "duration_min": 93.0,
+      "cost_usd": 153,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0152",
+      "asset_id": "A031",
+      "day": "2026-09-03",
+      "duration_min": 105.0,
+      "cost_usd": 158,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0153",
+      "asset_id": "A014",
+      "day": "2026-09-04",
+      "duration_min": 67.0,
+      "cost_usd": 181,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0154",
+      "asset_id": "A011",
+      "day": "2026-09-05",
+      "duration_min": 91.0,
+      "cost_usd": 133,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0155",
+      "asset_id": "A011",
+      "day": "2026-09-06",
+      "duration_min": 59.0,
+      "cost_usd": 155,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0156",
+      "asset_id": "A020",
+      "day": "2026-09-07",
+      "duration_min": 81.0,
+      "cost_usd": 242,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0157",
+      "asset_id": "A013",
+      "day": "2026-09-08",
+      "duration_min": 23.0,
+      "cost_usd": 199,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0158",
+      "asset_id": "A020",
+      "day": "2026-09-09",
+      "duration_min": 107.0,
+      "cost_usd": 161,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0159",
+      "asset_id": "A003",
+      "day": "2026-09-10",
+      "duration_min": 52.0,
+      "cost_usd": 322,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0160",
+      "asset_id": "A024",
+      "day": "2026-09-11",
+      "duration_min": 22.0,
+      "cost_usd": 334,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0161",
+      "asset_id": "A001",
+      "day": "2026-09-12",
+      "duration_min": 73.0,
+      "cost_usd": 350,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0162",
+      "asset_id": "A024",
+      "day": "2026-09-13",
+      "duration_min": 89.0,
+      "cost_usd": 285,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0163",
+      "asset_id": "A028",
+      "day": "2026-09-14",
+      "duration_min": 36.0,
+      "cost_usd": 342,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0164",
+      "asset_id": "A018",
+      "day": "2026-09-15",
+      "duration_min": 98.0,
+      "cost_usd": 375,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0165",
+      "asset_id": "A030",
+      "day": "2026-09-16",
+      "duration_min": 63.0,
+      "cost_usd": 187,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0166",
+      "asset_id": "A016",
+      "day": "2026-09-17",
+      "duration_min": 25.0,
+      "cost_usd": 217,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0167",
+      "asset_id": "A016",
+      "day": "2026-09-18",
+      "duration_min": 79.0,
+      "cost_usd": 391,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0168",
+      "asset_id": "A025",
+      "day": "2026-09-19",
+      "duration_min": 51.0,
+      "cost_usd": 64,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0169",
+      "asset_id": "A021",
+      "day": "2026-09-20",
+      "duration_min": 37.0,
+      "cost_usd": 324,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0170",
+      "asset_id": "A017",
+      "day": "2026-09-21",
+      "duration_min": 63.0,
+      "cost_usd": 243,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0171",
+      "asset_id": "A018",
+      "day": "2026-09-22",
+      "duration_min": 79.0,
+      "cost_usd": 55,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0172",
+      "asset_id": "A013",
+      "day": "2026-09-23",
+      "duration_min": 24.0,
+      "cost_usd": 198,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0173",
+      "asset_id": "A032",
+      "day": "2026-09-24",
+      "duration_min": 91.0,
+      "cost_usd": 223,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0174",
+      "asset_id": "A032",
+      "day": "2026-09-25",
+      "duration_min": 65.0,
+      "cost_usd": 58,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0175",
+      "asset_id": "A015",
+      "day": "2026-09-26",
+      "duration_min": 65.0,
+      "cost_usd": 199,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0176",
+      "asset_id": "A024",
+      "day": "2026-09-27",
+      "duration_min": 80.0,
+      "cost_usd": 383,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0177",
+      "asset_id": "A028",
+      "day": "2026-09-28",
+      "duration_min": 78.0,
+      "cost_usd": 219,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0178",
+      "asset_id": "A030",
+      "day": "2026-09-29",
+      "duration_min": 48.0,
+      "cost_usd": 231,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0179",
+      "asset_id": "A008",
+      "day": "2026-09-30",
+      "duration_min": 44.0,
+      "cost_usd": 261,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0180",
+      "asset_id": "A035",
+      "day": "2026-09-01",
+      "duration_min": 31.0,
+      "cost_usd": 148,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0181",
+      "asset_id": "A031",
+      "day": "2026-09-02",
+      "duration_min": 49.0,
+      "cost_usd": 343,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0182",
+      "asset_id": "A007",
+      "day": "2026-09-03",
+      "duration_min": 44.0,
+      "cost_usd": 251,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0183",
+      "asset_id": "A012",
+      "day": "2026-09-04",
+      "duration_min": 46.0,
+      "cost_usd": 57,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0184",
+      "asset_id": "A009",
+      "day": "2026-09-05",
+      "duration_min": 49.0,
+      "cost_usd": 98,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0185",
+      "asset_id": "A036",
+      "day": "2026-09-06",
+      "duration_min": 57.0,
+      "cost_usd": 164,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0186",
+      "asset_id": "A032",
+      "day": "2026-09-07",
+      "duration_min": 21.0,
+      "cost_usd": 56,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0187",
+      "asset_id": "A031",
+      "day": "2026-09-08",
+      "duration_min": 75.0,
+      "cost_usd": 300,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0188",
+      "asset_id": "A004",
+      "day": "2026-09-09",
+      "duration_min": 52.0,
+      "cost_usd": 344,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0189",
+      "asset_id": "A005",
+      "day": "2026-09-10",
+      "duration_min": 59.0,
+      "cost_usd": 301,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0190",
+      "asset_id": "A004",
+      "day": "2026-09-11",
+      "duration_min": 33.0,
+      "cost_usd": 151,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0191",
+      "asset_id": "A020",
+      "day": "2026-09-12",
+      "duration_min": 30.0,
+      "cost_usd": 227,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0192",
+      "asset_id": "A027",
+      "day": "2026-09-13",
+      "duration_min": 85.0,
+      "cost_usd": 165,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0193",
+      "asset_id": "A025",
+      "day": "2026-09-14",
+      "duration_min": 71.0,
+      "cost_usd": 301,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0194",
+      "asset_id": "A028",
+      "day": "2026-09-15",
+      "duration_min": 59.0,
+      "cost_usd": 391,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0195",
+      "asset_id": "A007",
+      "day": "2026-09-16",
+      "duration_min": 34.0,
+      "cost_usd": 158,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0196",
+      "asset_id": "A006",
+      "day": "2026-09-17",
+      "duration_min": 34.0,
+      "cost_usd": 197,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0197",
+      "asset_id": "A005",
+      "day": "2026-09-18",
+      "duration_min": 40.0,
+      "cost_usd": 101,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0198",
+      "asset_id": "A031",
+      "day": "2026-09-19",
+      "duration_min": 45.0,
+      "cost_usd": 66,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0199",
+      "asset_id": "A019",
+      "day": "2026-09-20",
+      "duration_min": 72.0,
+      "cost_usd": 111,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0200",
+      "asset_id": "A017",
+      "day": "2026-09-21",
+      "duration_min": 100.0,
+      "cost_usd": 201,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0201",
+      "asset_id": "A035",
+      "day": "2026-09-22",
+      "duration_min": 36.0,
+      "cost_usd": 126,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0202",
+      "asset_id": "A010",
+      "day": "2026-09-23",
+      "duration_min": 23.0,
+      "cost_usd": 105,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0203",
+      "asset_id": "A020",
+      "day": "2026-09-24",
+      "duration_min": 96.0,
+      "cost_usd": 391,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0204",
+      "asset_id": "A029",
+      "day": "2026-09-25",
+      "duration_min": 23.0,
+      "cost_usd": 289,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0205",
+      "asset_id": "A026",
+      "day": "2026-09-26",
+      "duration_min": 48.0,
+      "cost_usd": 331,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0206",
+      "asset_id": "A029",
+      "day": "2026-09-27",
+      "duration_min": 30.0,
+      "cost_usd": 120,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0207",
+      "asset_id": "A021",
+      "day": "2026-09-28",
+      "duration_min": 85.0,
+      "cost_usd": 178,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0208",
+      "asset_id": "A015",
+      "day": "2026-09-29",
+      "duration_min": 100.0,
+      "cost_usd": 369,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0209",
+      "asset_id": "A002",
+      "day": "2026-09-30",
+      "duration_min": 106.0,
+      "cost_usd": 237,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0210",
+      "asset_id": "A012",
+      "day": "2026-09-01",
+      "duration_min": 68.0,
+      "cost_usd": 315,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0211",
+      "asset_id": "A018",
+      "day": "2026-09-02",
+      "duration_min": 37.0,
+      "cost_usd": 374,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0212",
+      "asset_id": "A032",
+      "day": "2026-09-03",
+      "duration_min": 31.0,
+      "cost_usd": 340,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0213",
+      "asset_id": "A022",
+      "day": "2026-09-04",
+      "duration_min": 49.0,
+      "cost_usd": 103,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0214",
+      "asset_id": "A022",
+      "day": "2026-09-05",
+      "duration_min": 66.0,
+      "cost_usd": 328,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0215",
+      "asset_id": "A026",
+      "day": "2026-09-06",
+      "duration_min": 90.0,
+      "cost_usd": 118,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0216",
+      "asset_id": "A021",
+      "day": "2026-09-07",
+      "duration_min": 40.0,
+      "cost_usd": 215,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0217",
+      "asset_id": "A026",
+      "day": "2026-09-08",
+      "duration_min": 79.0,
+      "cost_usd": 75,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0218",
+      "asset_id": "A035",
+      "day": "2026-09-09",
+      "duration_min": 79.0,
+      "cost_usd": 311,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0219",
+      "asset_id": "A034",
+      "day": "2026-09-10",
+      "duration_min": 54.0,
+      "cost_usd": 305,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0220",
+      "asset_id": "A004",
+      "day": "2026-09-11",
+      "duration_min": 40.0,
+      "cost_usd": 211,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0221",
+      "asset_id": "A019",
+      "day": "2026-09-12",
+      "duration_min": 76.0,
+      "cost_usd": 348,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0222",
+      "asset_id": "A016",
+      "day": "2026-09-13",
+      "duration_min": 28.0,
+      "cost_usd": 209,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0223",
+      "asset_id": "A036",
+      "day": "2026-09-14",
+      "duration_min": 66.0,
+      "cost_usd": 122,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0224",
+      "asset_id": "A008",
+      "day": "2026-09-15",
+      "duration_min": 79.0,
+      "cost_usd": 160,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0225",
+      "asset_id": "A010",
+      "day": "2026-09-16",
+      "duration_min": 71.0,
+      "cost_usd": 199,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0226",
+      "asset_id": "A018",
+      "day": "2026-09-17",
+      "duration_min": 67.0,
+      "cost_usd": 322,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0227",
+      "asset_id": "A016",
+      "day": "2026-09-18",
+      "duration_min": 78.0,
+      "cost_usd": 382,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0228",
+      "asset_id": "A013",
+      "day": "2026-09-19",
+      "duration_min": 84.0,
+      "cost_usd": 310,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0229",
+      "asset_id": "A009",
+      "day": "2026-09-20",
+      "duration_min": 22.0,
+      "cost_usd": 216,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0230",
+      "asset_id": "A027",
+      "day": "2026-09-21",
+      "duration_min": 63.0,
+      "cost_usd": 359,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0231",
+      "asset_id": "A001",
+      "day": "2026-09-22",
+      "duration_min": 44.0,
+      "cost_usd": 202,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0232",
+      "asset_id": "A032",
+      "day": "2026-09-23",
+      "duration_min": 33.0,
+      "cost_usd": 303,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0233",
+      "asset_id": "A023",
+      "day": "2026-09-24",
+      "duration_min": 62.0,
+      "cost_usd": 382,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0234",
+      "asset_id": "A025",
+      "day": "2026-09-25",
+      "duration_min": 66.0,
+      "cost_usd": 214,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0235",
+      "asset_id": "A016",
+      "day": "2026-09-26",
+      "duration_min": 87.0,
+      "cost_usd": 271,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0236",
+      "asset_id": "A027",
+      "day": "2026-09-27",
+      "duration_min": 25.0,
+      "cost_usd": 262,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0237",
+      "asset_id": "A025",
+      "day": "2026-09-28",
+      "duration_min": 57.0,
+      "cost_usd": 127,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0238",
+      "asset_id": "A003",
+      "day": "2026-09-29",
+      "duration_min": 30.0,
+      "cost_usd": 332,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0239",
+      "asset_id": "A022",
+      "day": "2026-09-30",
+      "duration_min": 32.0,
+      "cost_usd": 325,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0240",
+      "asset_id": "A030",
+      "day": "2026-09-01",
+      "duration_min": 9.0,
+      "cost_usd": 123,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0241",
+      "asset_id": "A010",
+      "day": "2026-09-02",
+      "duration_min": 23.0,
+      "cost_usd": 315,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0242",
+      "asset_id": "A017",
+      "day": "2026-09-03",
+      "duration_min": 63.0,
+      "cost_usd": 303,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0243",
+      "asset_id": "A022",
+      "day": "2026-09-04",
+      "duration_min": 94.0,
+      "cost_usd": 323,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0244",
+      "asset_id": "A021",
+      "day": "2026-09-05",
+      "duration_min": 94.0,
+      "cost_usd": 324,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0245",
+      "asset_id": "A003",
+      "day": "2026-09-06",
+      "duration_min": 99.0,
+      "cost_usd": 135,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0246",
+      "asset_id": "A019",
+      "day": "2026-09-07",
+      "duration_min": 37.0,
+      "cost_usd": 96,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0247",
+      "asset_id": "A007",
+      "day": "2026-09-08",
+      "duration_min": 95.0,
+      "cost_usd": 126,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0248",
+      "asset_id": "A020",
+      "day": "2026-09-09",
+      "duration_min": 23.0,
+      "cost_usd": 123,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0249",
+      "asset_id": "A004",
+      "day": "2026-09-10",
+      "duration_min": 45.0,
+      "cost_usd": 233,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0250",
+      "asset_id": "A010",
+      "day": "2026-09-11",
+      "duration_min": 45.0,
+      "cost_usd": 346,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0251",
+      "asset_id": "A012",
+      "day": "2026-09-12",
+      "duration_min": 41.0,
+      "cost_usd": 189,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0252",
+      "asset_id": "A025",
+      "day": "2026-09-13",
+      "duration_min": 87.0,
+      "cost_usd": 173,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0253",
+      "asset_id": "A010",
+      "day": "2026-09-14",
+      "duration_min": 43.0,
+      "cost_usd": 311,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0254",
+      "asset_id": "A030",
+      "day": "2026-09-15",
+      "duration_min": 52.0,
+      "cost_usd": 104,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0255",
+      "asset_id": "A030",
+      "day": "2026-09-16",
+      "duration_min": 44.0,
+      "cost_usd": 329,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0256",
+      "asset_id": "A029",
+      "day": "2026-09-17",
+      "duration_min": 58.0,
+      "cost_usd": 375,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0257",
+      "asset_id": "A028",
+      "day": "2026-09-18",
+      "duration_min": 52.0,
+      "cost_usd": 333,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0258",
+      "asset_id": "A013",
+      "day": "2026-09-19",
+      "duration_min": 57.0,
+      "cost_usd": 297,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0259",
+      "asset_id": "A025",
+      "day": "2026-09-20",
+      "duration_min": 87.0,
+      "cost_usd": 258,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0260",
+      "asset_id": "A019",
+      "day": "2026-09-21",
+      "duration_min": 22.0,
+      "cost_usd": 302,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0261",
+      "asset_id": "A004",
+      "day": "2026-09-22",
+      "duration_min": 85.0,
+      "cost_usd": 304,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0262",
+      "asset_id": "A019",
+      "day": "2026-09-23",
+      "duration_min": 43.0,
+      "cost_usd": 255,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0263",
+      "asset_id": "A013",
+      "day": "2026-09-24",
+      "duration_min": 99.0,
+      "cost_usd": 228,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0264",
+      "asset_id": "A009",
+      "day": "2026-09-25",
+      "duration_min": 88.0,
+      "cost_usd": 99,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0265",
+      "asset_id": "A003",
+      "day": "2026-09-26",
+      "duration_min": 53.0,
+      "cost_usd": 300,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0266",
+      "asset_id": "A024",
+      "day": "2026-09-27",
+      "duration_min": 36.0,
+      "cost_usd": 146,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0267",
+      "asset_id": "A021",
+      "day": "2026-09-28",
+      "duration_min": 61.0,
+      "cost_usd": 139,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0268",
+      "asset_id": "A035",
+      "day": "2026-09-29",
+      "duration_min": 60.0,
+      "cost_usd": 346,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0269",
+      "asset_id": "A018",
+      "day": "2026-09-30",
+      "duration_min": 41.0,
+      "cost_usd": 231,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0270",
+      "asset_id": "A031",
+      "day": "2026-09-01",
+      "duration_min": 45.0,
+      "cost_usd": 223,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0271",
+      "asset_id": "A030",
+      "day": "2026-09-02",
+      "duration_min": 23.0,
+      "cost_usd": 147,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0272",
+      "asset_id": "A015",
+      "day": "2026-09-03",
+      "duration_min": 106.0,
+      "cost_usd": 303,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0273",
+      "asset_id": "A036",
+      "day": "2026-09-04",
+      "duration_min": 54.0,
+      "cost_usd": 96,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0274",
+      "asset_id": "A001",
+      "day": "2026-09-05",
+      "duration_min": 47.0,
+      "cost_usd": 349,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0275",
+      "asset_id": "A024",
+      "day": "2026-09-06",
+      "duration_min": 106.0,
+      "cost_usd": 234,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0276",
+      "asset_id": "A024",
+      "day": "2026-09-07",
+      "duration_min": 21.0,
+      "cost_usd": 169,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0277",
+      "asset_id": "A036",
+      "day": "2026-09-08",
+      "duration_min": 55.0,
+      "cost_usd": 188,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0278",
+      "asset_id": "A030",
+      "day": "2026-09-09",
+      "duration_min": 58.0,
+      "cost_usd": 309,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0279",
+      "asset_id": "A003",
+      "day": "2026-09-10",
+      "duration_min": 12.0,
+      "cost_usd": 205,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0280",
+      "asset_id": "A008",
+      "day": "2026-09-11",
+      "duration_min": 26.0,
+      "cost_usd": 195,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0281",
+      "asset_id": "A009",
+      "day": "2026-09-12",
+      "duration_min": 69.0,
+      "cost_usd": 332,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0282",
+      "asset_id": "A035",
+      "day": "2026-09-13",
+      "duration_min": 61.0,
+      "cost_usd": 350,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0283",
+      "asset_id": "A010",
+      "day": "2026-09-14",
+      "duration_min": 67.0,
+      "cost_usd": 125,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0284",
+      "asset_id": "A027",
+      "day": "2026-09-15",
+      "duration_min": 55.0,
+      "cost_usd": 116,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0285",
+      "asset_id": "A014",
+      "day": "2026-09-16",
+      "duration_min": 64.0,
+      "cost_usd": 277,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0286",
+      "asset_id": "A024",
+      "day": "2026-09-17",
+      "duration_min": 26.0,
+      "cost_usd": 263,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0287",
+      "asset_id": "A023",
+      "day": "2026-09-18",
+      "duration_min": 27.0,
+      "cost_usd": 303,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0288",
+      "asset_id": "A008",
+      "day": "2026-09-19",
+      "duration_min": 66.0,
+      "cost_usd": 96,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0289",
+      "asset_id": "A002",
+      "day": "2026-09-20",
+      "duration_min": 20.0,
+      "cost_usd": 245,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0290",
+      "asset_id": "A009",
+      "day": "2026-09-21",
+      "duration_min": 92.0,
+      "cost_usd": 205,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0291",
+      "asset_id": "A036",
+      "day": "2026-09-22",
+      "duration_min": 34.0,
+      "cost_usd": 350,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0292",
+      "asset_id": "A015",
+      "day": "2026-09-23",
+      "duration_min": 56.0,
+      "cost_usd": 150,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0293",
+      "asset_id": "A001",
+      "day": "2026-09-24",
+      "duration_min": 55.0,
+      "cost_usd": 174,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0294",
+      "asset_id": "A035",
+      "day": "2026-09-25",
+      "duration_min": 40.0,
+      "cost_usd": 139,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0295",
+      "asset_id": "A002",
+      "day": "2026-09-26",
+      "duration_min": 30.0,
+      "cost_usd": 82,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0296",
+      "asset_id": "A016",
+      "day": "2026-09-27",
+      "duration_min": 95.0,
+      "cost_usd": 265,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0297",
+      "asset_id": "A017",
+      "day": "2026-09-28",
+      "duration_min": 14.0,
+      "cost_usd": 114,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0298",
+      "asset_id": "A034",
+      "day": "2026-09-29",
+      "duration_min": 28.0,
+      "cost_usd": 107,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0299",
+      "asset_id": "A024",
+      "day": "2026-09-30",
+      "duration_min": 85.0,
+      "cost_usd": 155,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0300",
+      "asset_id": "A015",
+      "day": "2026-09-01",
+      "duration_min": 86.0,
+      "cost_usd": 72,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0301",
+      "asset_id": "A034",
+      "day": "2026-09-02",
+      "duration_min": 52.0,
+      "cost_usd": 309,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0302",
+      "asset_id": "A002",
+      "day": "2026-09-03",
+      "duration_min": 27.0,
+      "cost_usd": 345,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0303",
+      "asset_id": "A028",
+      "day": "2026-09-04",
+      "duration_min": 95.0,
+      "cost_usd": 105,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0304",
+      "asset_id": "A029",
+      "day": "2026-09-05",
+      "duration_min": 23.0,
+      "cost_usd": 116,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0305",
+      "asset_id": "A010",
+      "day": "2026-09-06",
+      "duration_min": 28.0,
+      "cost_usd": 164,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0306",
+      "asset_id": "A036",
+      "day": "2026-09-07",
+      "duration_min": 49.0,
+      "cost_usd": 245,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0307",
+      "asset_id": "A034",
+      "day": "2026-09-08",
+      "duration_min": 51.0,
+      "cost_usd": 307,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0308",
+      "asset_id": "A028",
+      "day": "2026-09-09",
+      "duration_min": 32.0,
+      "cost_usd": 158,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0309",
+      "asset_id": "A036",
+      "day": "2026-09-10",
+      "duration_min": 35.0,
+      "cost_usd": 270,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0310",
+      "asset_id": "A015",
+      "day": "2026-09-11",
+      "duration_min": 66.0,
+      "cost_usd": 248,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0311",
+      "asset_id": "A026",
+      "day": "2026-09-12",
+      "duration_min": 73.0,
+      "cost_usd": 148,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0312",
+      "asset_id": "A021",
+      "day": "2026-09-13",
+      "duration_min": 93.0,
+      "cost_usd": 180,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0313",
+      "asset_id": "A010",
+      "day": "2026-09-14",
+      "duration_min": 101.0,
+      "cost_usd": 317,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0314",
+      "asset_id": "A006",
+      "day": "2026-09-15",
+      "duration_min": 31.0,
+      "cost_usd": 321,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0315",
+      "asset_id": "A024",
+      "day": "2026-09-16",
+      "duration_min": 24.0,
+      "cost_usd": 334,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0316",
+      "asset_id": "A036",
+      "day": "2026-09-17",
+      "duration_min": 85.0,
+      "cost_usd": 243,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0317",
+      "asset_id": "A027",
+      "day": "2026-09-18",
+      "duration_min": 65.0,
+      "cost_usd": 316,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0318",
+      "asset_id": "A004",
+      "day": "2026-09-19",
+      "duration_min": 44.0,
+      "cost_usd": 209,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0319",
+      "asset_id": "A033",
+      "day": "2026-09-20",
+      "duration_min": 41.0,
+      "cost_usd": 154,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0320",
+      "asset_id": "A015",
+      "day": "2026-09-21",
+      "duration_min": 33.0,
+      "cost_usd": 279,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0321",
+      "asset_id": "A024",
+      "day": "2026-09-22",
+      "duration_min": 22.0,
+      "cost_usd": 192,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0322",
+      "asset_id": "A028",
+      "day": "2026-09-23",
+      "duration_min": 85.0,
+      "cost_usd": 360,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0323",
+      "asset_id": "A018",
+      "day": "2026-09-24",
+      "duration_min": 23.0,
+      "cost_usd": 192,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0324",
+      "asset_id": "A020",
+      "day": "2026-09-25",
+      "duration_min": 51.0,
+      "cost_usd": 229,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0325",
+      "asset_id": "A010",
+      "day": "2026-09-26",
+      "duration_min": 86.0,
+      "cost_usd": 280,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0326",
+      "asset_id": "A002",
+      "day": "2026-09-27",
+      "duration_min": 31.0,
+      "cost_usd": 371,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0327",
+      "asset_id": "A027",
+      "day": "2026-09-28",
+      "duration_min": 66.0,
+      "cost_usd": 224,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0328",
+      "asset_id": "A020",
+      "day": "2026-09-29",
+      "duration_min": 55.0,
+      "cost_usd": 365,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0329",
+      "asset_id": "A004",
+      "day": "2026-09-30",
+      "duration_min": 39.0,
+      "cost_usd": 180,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0330",
+      "asset_id": "A004",
+      "day": "2026-09-01",
+      "duration_min": 94.0,
+      "cost_usd": 91,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0331",
+      "asset_id": "A028",
+      "day": "2026-09-02",
+      "duration_min": 76.0,
+      "cost_usd": 301,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0332",
+      "asset_id": "A014",
+      "day": "2026-09-03",
+      "duration_min": 85.0,
+      "cost_usd": 158,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0333",
+      "asset_id": "A008",
+      "day": "2026-09-04",
+      "duration_min": 44.0,
+      "cost_usd": 299,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0334",
+      "asset_id": "A020",
+      "day": "2026-09-05",
+      "duration_min": 19.0,
+      "cost_usd": 187,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0335",
+      "asset_id": "A004",
+      "day": "2026-09-06",
+      "duration_min": 20.0,
+      "cost_usd": 204,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0336",
+      "asset_id": "A014",
+      "day": "2026-09-07",
+      "duration_min": 25.0,
+      "cost_usd": 180,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0337",
+      "asset_id": "A008",
+      "day": "2026-09-08",
+      "duration_min": 14.0,
+      "cost_usd": 329,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0338",
+      "asset_id": "A012",
+      "day": "2026-09-09",
+      "duration_min": 36.0,
+      "cost_usd": 294,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0339",
+      "asset_id": "A015",
+      "day": "2026-09-10",
+      "duration_min": 72.0,
+      "cost_usd": 336,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0340",
+      "asset_id": "A023",
+      "day": "2026-09-11",
+      "duration_min": 23.0,
+      "cost_usd": 278,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0341",
+      "asset_id": "A003",
+      "day": "2026-09-12",
+      "duration_min": 75.0,
+      "cost_usd": 109,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0342",
+      "asset_id": "A005",
+      "day": "2026-09-13",
+      "duration_min": 48.0,
+      "cost_usd": 344,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0343",
+      "asset_id": "A026",
+      "day": "2026-09-14",
+      "duration_min": 95.0,
+      "cost_usd": 288,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0344",
+      "asset_id": "A026",
+      "day": "2026-09-15",
+      "duration_min": 22.0,
+      "cost_usd": 266,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0345",
+      "asset_id": "A030",
+      "day": "2026-09-16",
+      "duration_min": 54.0,
+      "cost_usd": 95,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0346",
+      "asset_id": "A007",
+      "day": "2026-09-17",
+      "duration_min": 45.0,
+      "cost_usd": 298,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0347",
+      "asset_id": "A034",
+      "day": "2026-09-18",
+      "duration_min": 30.0,
+      "cost_usd": 302,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0348",
+      "asset_id": "A022",
+      "day": "2026-09-19",
+      "duration_min": 36.0,
+      "cost_usd": 220,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0349",
+      "asset_id": "A005",
+      "day": "2026-09-20",
+      "duration_min": 79.0,
+      "cost_usd": 133,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0350",
+      "asset_id": "A013",
+      "day": "2026-09-21",
+      "duration_min": 64.0,
+      "cost_usd": 279,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0351",
+      "asset_id": "A010",
+      "day": "2026-09-22",
+      "duration_min": 38.0,
+      "cost_usd": 102,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0352",
+      "asset_id": "A013",
+      "day": "2026-09-23",
+      "duration_min": 36.0,
+      "cost_usd": 153,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0353",
+      "asset_id": "A005",
+      "day": "2026-09-24",
+      "duration_min": 42.0,
+      "cost_usd": 352,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0354",
+      "asset_id": "A029",
+      "day": "2026-09-25",
+      "duration_min": 95.0,
+      "cost_usd": 339,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0355",
+      "asset_id": "A021",
+      "day": "2026-09-26",
+      "duration_min": 94.0,
+      "cost_usd": 236,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0356",
+      "asset_id": "A005",
+      "day": "2026-09-27",
+      "duration_min": 80.0,
+      "cost_usd": 326,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0357",
+      "asset_id": "A018",
+      "day": "2026-09-28",
+      "duration_min": 83.0,
+      "cost_usd": 78,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0358",
+      "asset_id": "A005",
+      "day": "2026-09-29",
+      "duration_min": 53.0,
+      "cost_usd": 311,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0359",
+      "asset_id": "A004",
+      "day": "2026-09-30",
+      "duration_min": 67.0,
+      "cost_usd": 246,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0000",
+      "asset_id": "A008",
+      "day": "2026-09-01",
+      "duration_min": 11.0,
+      "cost_usd": 2500,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0001",
+      "asset_id": "A009",
+      "day": "2026-09-02",
+      "duration_min": 27.0,
+      "cost_usd": 2511,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0002",
+      "asset_id": "A028",
+      "day": "2026-09-03",
+      "duration_min": 24.0,
+      "cost_usd": 2522,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0003",
+      "asset_id": "A015",
+      "day": "2026-09-04",
+      "duration_min": 72.0,
+      "cost_usd": 2533,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0004",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": 67.0,
+      "cost_usd": 2544,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0005",
+      "asset_id": "A018",
+      "day": "2026-09-06",
+      "duration_min": 20.0,
+      "cost_usd": 2555,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0006",
+      "asset_id": "A022",
+      "day": "2026-09-07",
+      "duration_min": 43.0,
+      "cost_usd": 2566,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0007",
+      "asset_id": "A022",
+      "day": "2026-09-08",
+      "duration_min": 27.0,
+      "cost_usd": 2577,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0008",
+      "asset_id": "A023",
+      "day": "2026-09-09",
+      "duration_min": 64.0,
+      "cost_usd": 2588,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0009",
+      "asset_id": "A030",
+      "day": "2026-09-10",
+      "duration_min": 76.0,
+      "cost_usd": 2599,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0010",
+      "asset_id": "A025",
+      "day": "2026-09-11",
+      "duration_min": 24.0,
+      "cost_usd": 2610,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0011",
+      "asset_id": "A024",
+      "day": "2026-09-12",
+      "duration_min": 93.0,
+      "cost_usd": 2621,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0012",
+      "asset_id": "A003",
+      "day": "2026-09-13",
+      "duration_min": 92.0,
+      "cost_usd": 2632,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0013",
+      "asset_id": "A006",
+      "day": "2026-09-14",
+      "duration_min": 43.0,
+      "cost_usd": 2643,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0014",
+      "asset_id": "A030",
+      "day": "2026-09-15",
+      "duration_min": 101.0,
+      "cost_usd": 2654,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0015",
+      "asset_id": "A023",
+      "day": "2026-09-16",
+      "duration_min": 34.0,
+      "cost_usd": 2665,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0016",
+      "asset_id": "A005",
+      "day": "2026-09-17",
+      "duration_min": 91.0,
+      "cost_usd": 2676,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0017",
+      "asset_id": "A016",
+      "day": "2026-09-18",
+      "duration_min": 40.0,
+      "cost_usd": 2687,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0018",
+      "asset_id": "A036",
+      "day": "2026-09-19",
+      "duration_min": 36.0,
+      "cost_usd": 2698,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0019",
+      "asset_id": "A004",
+      "day": "2026-09-20",
+      "duration_min": 43.0,
+      "cost_usd": 2709,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0020",
+      "asset_id": "A026",
+      "day": "2026-09-21",
+      "duration_min": 54.0,
+      "cost_usd": 2720,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0021",
+      "asset_id": "A021",
+      "day": "2026-09-22",
+      "duration_min": 35.0,
+      "cost_usd": 2731,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0022",
+      "asset_id": "A030",
+      "day": "2026-09-23",
+      "duration_min": 32.0,
+      "cost_usd": 2742,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0023",
+      "asset_id": "A036",
+      "day": "2026-09-24",
+      "duration_min": 88.0,
+      "cost_usd": 2753,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0024",
+      "asset_id": "A028",
+      "day": "2026-09-25",
+      "duration_min": 82.0,
+      "cost_usd": 2764,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0025",
+      "asset_id": "A009",
+      "day": "2026-09-26",
+      "duration_min": 79.0,
+      "cost_usd": 2775,
+      "priority": "High"
+    },
+    {
+      "event_id": "E0026",
+      "asset_id": "A004",
+      "day": "2026-09-27",
+      "duration_min": 34.0,
+      "cost_usd": 2786,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0027",
+      "asset_id": "A028",
+      "day": "2026-09-28",
+      "duration_min": 84.0,
+      "cost_usd": 2797,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0028",
+      "asset_id": "A030",
+      "day": "2026-09-29",
+      "duration_min": 81.0,
+      "cost_usd": 2808,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "E0029",
+      "asset_id": "A001",
+      "day": "2026-09-30",
+      "duration_min": 107.0,
+      "cost_usd": 2819,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "ORPH0",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High"
+    },
+    {
+      "event_id": "ORPH1",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High"
+    },
+    {
+      "event_id": "ORPH2",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High"
+    },
+    {
+      "event_id": "ORPH3",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High"
+    },
+    {
+      "event_id": "ORPH4",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High"
+    },
+    {
+      "event_id": "ORPH5",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High"
+    },
+    {
+      "event_id": "ORPH6",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High"
+    },
+    {
+      "event_id": "ORPH7",
+      "asset_id": "A999",
+      "day": "2026-09-12",
+      "duration_min": 40.0,
+      "cost_usd": 780,
+      "priority": "High"
+    },
+    {
+      "event_id": "MISS0",
+      "asset_id": "A008",
+      "day": "2026-09-01",
+      "duration_min": null,
+      "cost_usd": 190,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "MISS1",
+      "asset_id": "A009",
+      "day": "2026-09-02",
+      "duration_min": null,
+      "cost_usd": 354,
+      "priority": "High"
+    },
+    {
+      "event_id": "MISS2",
+      "asset_id": "A028",
+      "day": "2026-09-03",
+      "duration_min": null,
+      "cost_usd": 115,
+      "priority": "High"
+    },
+    {
+      "event_id": "MISS3",
+      "asset_id": "A015",
+      "day": "2026-09-04",
+      "duration_min": null,
+      "cost_usd": 63,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "MISS4",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": null,
+      "cost_usd": 187,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "MISS5",
+      "asset_id": "A018",
+      "day": "2026-09-06",
+      "duration_min": null,
+      "cost_usd": 181,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "MISS6",
+      "asset_id": "A022",
+      "day": "2026-09-07",
+      "duration_min": null,
+      "cost_usd": 129,
+      "priority": "High"
+    },
+    {
+      "event_id": "NEG0",
+      "asset_id": "A008",
+      "day": "2026-09-01",
+      "duration_min": 11.0,
+      "cost_usd": -100,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "NEG1",
+      "asset_id": "A009",
+      "day": "2026-09-02",
+      "duration_min": 27.0,
+      "cost_usd": -100,
+      "priority": "High"
+    },
+    {
+      "event_id": "NEG2",
+      "asset_id": "A028",
+      "day": "2026-09-03",
+      "duration_min": 24.0,
+      "cost_usd": -100,
+      "priority": "High"
+    },
+    {
+      "event_id": "NEG3",
+      "asset_id": "A015",
+      "day": "2026-09-04",
+      "duration_min": 72.0,
+      "cost_usd": -100,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "NEG4",
+      "asset_id": "A035",
+      "day": "2026-09-05",
+      "duration_min": 67.0,
+      "cost_usd": -100,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "DATE0",
+      "asset_id": "A008",
+      "day": "not-a-date",
+      "duration_min": 11.0,
+      "cost_usd": 190,
+      "priority": "Routine"
+    },
+    {
+      "event_id": "DATE1",
+      "asset_id": "A009",
+      "day": "not-a-date",
+      "duration_min": 27.0,
+      "cost_usd": 354,
+      "priority": "High"
+    },
+    {
+      "event_id": "DATE2",
+      "asset_id": "A028",
+      "day": "not-a-date",
+      "duration_min": 24.0,
+      "cost_usd": 115,
+      "priority": "High"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "A001",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A002",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A003",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A004",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A005",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A006",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A007",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A008",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A009",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A010",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A011",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A012",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A013",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A014",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A015",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A016",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A017",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A018",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A019",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A020",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A021",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A022",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A023",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A024",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A025",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A026",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A027",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A028",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A029",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A030",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A031",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A032",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A033",
+      "region": "West",
+      "asset_type": "Substation"
+    },
+    {
+      "asset_id": "A034",
+      "region": "Central",
+      "asset_type": "Feeder"
+    },
+    {
+      "asset_id": "A035",
+      "region": "East",
+      "asset_type": "Sensor"
+    },
+    {
+      "asset_id": "A036",
+      "region": "West",
+      "asset_type": "Substation"
+    }
+  ],
+  "sql": "SELECT region, COUNT(*) AS events, SUM(cost_usd) AS cost_usd,\n AVG(duration_min) AS avg_duration_min,\n SUM(CASE WHEN duration_min > 60 THEN 1 ELSE 0 END) AS over_sla\n FROM events GROUP BY region ORDER BY region",
+  "checks": {
+    "row_conservation": true,
+    "unique_event_ids": true,
+    "no_unmatched_assets": true,
+    "sql_source_totals_agree": true
+  }
+}
