@@ -1,8 +1,7 @@
 # Signal / Operations Observatory
 
 **Same records. A different decision.** An interactive demonstration of how data
-quality changes an operational report, built by Cheuk Lam Chen with AI assistance.
-Created October 22, 2026 as a focused portfolio demonstration.
+quality changes an operational report.
 
 ![Validated pipeline](screenshots/validated.jpg)
 
