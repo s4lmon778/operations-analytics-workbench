@@ -73,7 +73,3 @@ matters, then switch views to connect the defect count to reported spend.
 Demonstrate one filter and trace its results back to accepted rows. Discuss what
 would change for real data: correction semantics, durable ingestion, schemas,
 authentication, data freshness and stakeholder-defined SLA rules.
-
-AI helped implement this demonstration. Cheuk directed its purpose and
-requirements. The project does not establish independent mastery of every
-dependency; understanding and extending it are part of interview preparation.
